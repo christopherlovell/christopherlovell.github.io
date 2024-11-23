@@ -25,7 +25,7 @@ Lift(A=&gt;B)=\frac{P({A}\cup{B})}{P(A)P(B)}
 </div>
 <div id="data-the-titanic" class="section level2">
 <h2>Data: The Titanic</h2>
-<p>The dataset I’m going to use contains information on passengers of the Titanic when it sank, including their age, sex, the class they were travelling in, and whther they survived or not; pretty morbid stuff, but large enough to hopefully throw up some interesting patterns. It’s included in the datasets package in R, but you can download the original data from <a href="http://www.amstat.org/publications/jse/v3n3/datasets.dawson.html">here</a>.</p>
+<p>The dataset I’m going to use contains information on passengers of the Titanic when it sank, including their age, sex, the class they were travelling in, and whther they survived or not; pretty morbid stuff, but large enough to hopefully throw up some interesting patterns. It’s included in the datasets package in R, but you can download the original data from *broken link*.
 <pre class="r"><code>str(Titanic)</code></pre>
 <pre><code>##  table [1:4, 1:2, 1:2, 1:2] 0 0 35 0 0 0 17 0 118 154 ...
 ##  - attr(*, &quot;dimnames&quot;)=List of 4

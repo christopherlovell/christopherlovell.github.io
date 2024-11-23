@@ -16,7 +16,7 @@ The astrophysicists main tool for understanding the universe is the theoretical 
 
 In the past half century, astrophysics and astronomy have become closely intertwined with the field of **Cosmology**, which seeks to answer the grandest questions of all; how did the universe begin, how will it evolve, and (how) will it end? These questions have been the domain of philosophers for the majority of human history until the 20th century, when observational techniques have allowed us to observe further and further back in to the history of the universe.
 
-In summary, modern astrophysics is the study of how the universe works, in part and as a whole. My particular contribution to the field is still being planned by my supervisors, <a href="http://www.sussex.ac.uk/profiles/2672" target="blank">Professor Peter Thomas</a> and <a href="http://www.sussex.ac.uk/mps/internal/people/physics/person/192372" target="blank">Doctor Stephen Wilkins</a>, however the provisional title is *Galaxy formation in the epoch of reionizaton*. I've been given the following outline:
+In summary, modern astrophysics is the study of how the universe works, in part and as a whole. My particular contribution to the field is still being planned by my supervisors, Professor Peter Thomas and Doctor Stephen Wilkins, however the provisional title is *Galaxy formation in the epoch of reionizaton*. I've been given the following outline:
 
 >_"Using semi-analytic and hydrodynamical simulations of galaxy formation to explore the formation and evolution of galaxies to z=6, and make predictions for JWST."_
 
