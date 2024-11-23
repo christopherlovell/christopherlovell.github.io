@@ -40,6 +40,4 @@ Type I civilisations would be the most difficult to detect, due to the lower ene
 
 Alternatives and extensions to the scale have been proposed, such as Type IV civilisations that can control the energy of the entire universe. Such fanciful propositions have led some to criticise the scale for being speculative; if we cannot understand advanced civilisations, then it is impossible to predict their behaviour. Whilst this is arguably true, what is beyond doubt is the profound impact of such thinking on how we view our own civilisation and the means of powering it. Even if we are alone in the universe, The Kardashev scale has influenced the dialogue surrounding our own civilisations source of energy in the future; if we can avoid destroying our own planet through global warming, or ourselves through nuclear war, how will we power ourselves in to the vast and exciting future?
 
-{% include page_divider.html %}
-
 > *This post was inspired by a recent paper from Milan M. Cirkovic '[Kardashev's Classification at 50+: A Fine Vehicle with Room for Improvement](http://arxiv.org/abs/1601.05112)', which explores the scale, its context and continuing relevance in great detail, as well as this [post](http://www.centauri-dreams.org/?p=30255) on Centauri Dreams, which has had me thinking about these topics ever since first reading it.*

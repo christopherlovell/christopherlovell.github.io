@@ -33,4 +33,5 @@ The Q-Q plot shows that most of the difference is actually in the high value tai
 ![hist](/images/lognormal/QQ_noise.png)
 
 
-{% gist f5370022030f48198ffdd85eab8f1fa2 %}
+[gist:f5370022030f48198ffdd85eab8f1fa2 %}](https://gist.github.com/christopherlovell/f5370022030f48198ffdd85eab8f1fa2)
+
