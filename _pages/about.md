@@ -20,11 +20,12 @@ social: true # includes social icons at the bottom of the page
 
 Hello! I'm a computational astrophysicist studying how galaxies form and evolve. 
 
-My research seeks to understand the various physical processes that shape galaxies, and leads to the diversity of the galaxy population we observe.
-A particular focus of my research has been the formation of the first galaxies, in the first billion years of the Universe's history, now being probed in exquisite detail by the [James Webb Space Telescope](https://www.esa.int/Science_Exploration/Space_Science/Webb).
+My research seeks to understand the various physical processes that shape galaxies, including their cosmological environment, which leads to the diversity of the galaxy population we observe.
+A particular focus of my research has been the formation of the earliest galaxies, in the first billion years of the Universe's history, now being probed in exquisite detail by the [James Webb Space Telescope](https://www.esa.int/Science_Exploration/Space_Science/Webb).
 
-To do this I use numerical simulations to model these complex physical processes, including their electromagnetic emission, allowing us to directly compare with the observed galaxy populations.
+To do this I use numerical simulations to model these complex physical processes.
+Much of my work has focussed on modelling the electromagnetic emission from galaxies, allowing us to directly compare with the observed galaxy populations.
 I also employ deep learning techniques to accelerate these simulations, and provide novel insights.
-Recently I have become interested in simulation based inference approaches, which allow us to use our sophisticated simulations to place direct constraints on key astrophysical parameters.
+Recently I have been exploring simulation based inference approaches, which allow us to use our sophisticated simulations to place direct constraints on key astrophysical parameters.
 
 I am a member of the [FLARES](flaresimulations.github.io/), [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid), [Learning the Universe](https://learning-the-universe.org/) and [CAMELS](https://www.camel-simulations.org/) collaborations. Please check out my [projects page](/projects) for a flavour of my current work.
