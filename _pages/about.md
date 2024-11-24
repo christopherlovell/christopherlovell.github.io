@@ -6,7 +6,7 @@ subtitle: <a href="https://www.port.ac.uk/research/research-centres-and-groups/i
 
 profile:
   align: right
-  image: profile_alpha.png
+  image: profile_ras_edit.png
   image_circular: true # crops the image to make it circular
 #  more_info: >
 #    <p>555 your office number</p>
