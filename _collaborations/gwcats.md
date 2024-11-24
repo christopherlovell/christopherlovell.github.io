@@ -7,25 +7,6 @@ importance: 1
 category: Collaborations
 related_publications: true
 ---
-
-
-<h2><a name="FLARES">First Light And Reionisation Epoch Simulations (FLARES)</a></h2>
-
-Cosmological hydrodynamic simulations have, in recent years, become capable of matching key distribution functions in the local universe, such as those of stellar mass and star formation rate.
-However, high resolution, large volume simulations  have rarely been tested in the high redshift ($z > 5$) regime, particularly in the most overdense environments.
-Creating models that fit both high redshift and low redshift observables self consistently is a significant challenge, but key to understanding the properties of galaxies in the first billion years of the universe's history, and how this affects their latter evolution.
-Such models are also necessary to make detailed predictions, and plan observations, for upcoming space based instruments, such as JWST, WFIRST and Euclid.
-
-<img class="small" src="/images/all_components.png" title="FLARES components">
-<p style="text-align:center; font-style:italic">The column density of gas, stars and dark matter in the most overdense region in the FLARES sample.</p>
-
-<a href="flaresimulations.github.io/" target="source">The First Light And Reionisation Epoch Simulations (FLARES)</a> are one approach to these issues.
-FLARES consists of a suite of 40 'zoom' simulations using a modified version of the <a href="http://icc.dur.ac.uk/Eagle/" target="blank">EAGLE</a> code.
-We selected regions at high redshift, with a range of overdensities, from an enormous periodic dark matter-only volume, and resimulated these with full hydrodynamics at fiducial EAGLE resolution.
-I led the first release paper (<a href="https://arxiv.org/abs/2004.07283">Lovell et al 2021; arXiv:2004.07283</a>) in which we study predictions for the galaxy stellar mass function, star formation rate function and star-forming sequence.
-Below is an introductory talk that I gave at the 2020 SAZERAC meeting (with awkward slide transition requests due to a technical error...!).
-
-
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.

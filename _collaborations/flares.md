@@ -19,7 +19,7 @@ Such models are also necessary to make detailed predictions, and plan observatio
 <img class="small" src="/images/all_components.png" title="FLARES components">
 <p style="text-align:center; font-style:italic">The column density of gas, stars and dark matter in the most overdense region in the FLARES sample.</p>
 
-<a href="flaresimulations.github.io/" target="source">The First Light And Reionisation Epoch Simulations (FLARES)</a> are one approach to these issues.
+<a href="https://www.flaresimulations.github.io/" target="source">The First Light And Reionisation Epoch Simulations (FLARES)</a> are one approach to these issues.
 FLARES consists of a suite of 40 'zoom' simulations using a modified version of the <a href="http://icc.dur.ac.uk/Eagle/" target="blank">EAGLE</a> code.
 We selected regions at high redshift, with a range of overdensities, from an enormous periodic dark matter-only volume, and resimulated these with full hydrodynamics at fiducial EAGLE resolution.
 I led the first release paper (<a href="https://arxiv.org/abs/2004.07283">Lovell et al 2021; arXiv:2004.07283</a>) in which we study predictions for the galaxy stellar mass function, star formation rate function and star-forming sequence.
