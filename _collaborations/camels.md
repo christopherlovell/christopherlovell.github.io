@@ -19,7 +19,9 @@ CAMELS is "a project that aims at building bridges between cosmology and astroph
     Schema showing the structure of the CAMELS suite of simulations.
 </div>
 
-I have worked on producing synthetic photometry for CAMELS galaxies {% cite 2024arXiv241113960L %}.
+I have produced synthetic photometric catalogues for CAMELS {% cite 2024arXiv241113960L %} using our Synthesizer code; this catalogue of over 200 million individual sources is one of the largest sets of synthetic photometry produced from a hydrodynamic simulation to date.
+I have also explored the application of normalising flows for generative modelling of galaxy populations {% cite 2023mla..confE..21L %}.
+
 I also ran the Swift-EAGLE model as part of the suite of simulations (Lovell et al. in prep.).
 Below is a video of the evolution of one of the Swift-EAGLE runs, with gas density in blue and gas temperature in red.
 
