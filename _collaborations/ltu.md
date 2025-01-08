@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Learning the Universe
-description: with background image
-img: assets/img/12.jpg
+description: The Learning the Universe Simons Collaboration
+img: assets/img/ltu.jpg
 importance: 1
 category: Collaborations
 related_publications: true

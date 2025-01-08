@@ -1,81 +1,38 @@
 ---
 layout: page
 title: CAMELS
-description: with background image
-img: assets/img/12.jpg
+description: Cosmology and Astrophysics with MachinE Learning Simulations
+img: assets/img/camels.jpg
 importance: 1
 category: Collaborations
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+CAMELS is "a project that aims at building bridges between cosmology and astrophysics through numerical simulations and machine learning". You can read more about CAMELS [here](https://www.camel-simulations.org/).
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="mx-auto d-block" style="text-align: center;">
+        {% include figure.liquid loading="eager" path="assets/img/camels_sims_scheme.webp" title="sims scheme" class="img-fluid rounded z-depth-1" width="500px" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Schema showing the structure of the CAMELS suite of simulations.
 </div>
+
+I have worked on producing synthetic photometry for CAMELS galaxies {% cite 2024arXiv241113960L %}.
+I also ran the Swift-EAGLE model as part of the suite of simulations (Lovell et al. in prep.).
+Below is a video of the evolution of one of the Swift-EAGLE runs, with gas density in blue and gas temperature in red.
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mx-auto d-block" style="text-align: center; margin-bottom: 1cm;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XDpBT6JwRAE?si=9-crxJZT31CEKei_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+I have also been involved in a number of other CAMELS studies, including measurement of the impact of baryons on matter clustering {% cite 2024MNRAS.529.4896G %}, symbolic regression combined with graph neural networks {% cite 2023ApJ...956..149S %} and field level likelihood free inference {% cite 2023ApJ...952...69D 2023arXiv231015234D %}.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<!-- ## Related publications -->
+<!-- <div class="publications">
+  {% bibliography -f papers -q @*[key=]* %}
+  {% bibliography -f papers -q @*[key=]* %}
+</div> -->

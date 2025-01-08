@@ -1,8 +1,8 @@
 ---
 layout: page
 title: FLARES
-description: with background image
-img: assets/img/12.jpg
+description: The First Light And Reionisation Epoch Simulations
+img: assets/img/flares.png
 importance: 1
 category: Collaborations
 related_publications: true

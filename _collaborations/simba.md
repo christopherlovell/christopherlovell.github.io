@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Simba
-description: with background image
-img: assets/img/12.jpg
+description: The Simba simulation suite
+img: assets/img/simba.webp
 importance: 1
 category: Collaborations
 related_publications: true

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Euclid
-description: with background image
-img: assets/img/12.jpg
+title: The Euclid Consortium
+description: The ESA Euclid Telescope
+img: assets/img/euclid.jpg
 importance: 1
 category: Collaborations
 related_publications: true
