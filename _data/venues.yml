@@ -1,9 +1,23 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"MNRAS":
+  color: "#00008B"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"arXiv e-prints":
+  color: "#8B0000"
 
-"Vision":
-  color: "#009f36"
+"arXiv":
+  color: "#8B0000"
+
+"A&A":
+  color: "008080"
+
+"ApJ":
+  color: "#0060df"
+
+"ApJS":
+  color: "#0060df"
+
+"ApJSS":
+  color: "#0060df"
+
+"OJA":
+  color: "#013220"

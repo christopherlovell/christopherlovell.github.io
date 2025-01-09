@@ -313,14 +313,14 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lovell]
+  first_name: [Christopher, C.]
 
   style: apa
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: _Lovell.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -370,6 +370,8 @@ filtered_bibtex_keywords:
     supp,
     video,
     website,
+    year,
+    date,
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
