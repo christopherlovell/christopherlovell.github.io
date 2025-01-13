@@ -108,7 +108,7 @@
   event: "KITP conference and workshop"
   date: "2024-08-01"
   location: "Santa Barbara, US"
-  link: ""
+  link: "https://www.kitp.ucsb.edu/activities/firstbillion24"
   details: "Invited review talk"
 
 - title: ""
@@ -270,7 +270,7 @@
   event: "SBI for galaxy evolution"
   date: "2024-04-01"
   location: "University of Bristol, UK"
-  link: ""
+  link: "https://sbi-galev.github.io/2024/"
   details: "Co-organiser of programme"
 
 - title: ""
