@@ -42,6 +42,20 @@
   details: "Invited talk"
 
 - title: ""
+  event: "JWST Proposal Planning Workshop"
+  date: "2023-01-05"
+  location: "University of Hertfordshire, UK"
+  link: "https://webbfellow.wixsite.com/prop-planning"
+  details: ""
+
+- title: ""
+  event: "JWST commissioning and first science from a UK perspective"
+  date: "2022-11-11"
+  location: "Royal Astronomical Society, London, UK"
+  link: "https://ras.ac.uk/events-and-meetings/ras-meetings/jwst-commissioning-and-first-science-uk-perspective"
+  details: ""
+
+- title: ""
   event: "University of Cardiff"
   date: "2023-12-13"
   location: "Cardiff, UK"
@@ -52,7 +66,7 @@
   event: "University of Bristol"
   date: "2023-10-12"
   location: "Bristol, UK"
-  link: ""
+  link: "https://www.bristol.ac.uk/physics/research/astrophysics/seminars/last-year-seminars/seminar-2023-10-12/"
   details: "Invited talk"
 
 - title: ""

@@ -16,11 +16,19 @@
         <p>
             {{ talk.date | date: "%B %d, %Y" }} - {{ talk.location }}
         </p>
-        {% if talk.title %}
-            {% if talk.title != blank %}
-                <p>"{{ talk.title }}"</p>
+        {% if talk.details != blank | talk.title != blank %}
+            <p>
+            {% if talk.details and talk.details != blank %}
+                {{ talk.details }}          
             {% endif %}
-        {% endif %} 
+            {% if talk.details != blank and talk.title != blank %}
+                "|"
+            {% endif %}
+            {% if talk.title and talk.title != blank %}
+                "{{ talk.title }}"
+            {% endif %}
+            </p>
+        {% endif %}
         </div>
   {% endfor %}
 <hr>
