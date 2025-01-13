@@ -28,4 +28,4 @@ Much of my work has focussed on modelling the electromagnetic emission from gala
 I also employ deep learning techniques to accelerate these simulations, and provide novel insights.
 Recently I have been exploring simulation based inference approaches, which allow us to use our sophisticated simulations to place direct constraints on key astrophysical parameters.
 
-I am a member of the [FLARES](flaresimulations.github.io/), [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid), [Learning the Universe](https://learning-the-universe.org/) and [CAMELS](https://www.camel-simulations.org/) collaborations. Please check out my [projects page](/projects) for a flavour of my current work.
+I am a member of the [FLARES](https://flaresimulations.github.io/), [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid), [Learning the Universe](https://learning-the-universe.org/) and [CAMELS](https://www.camel-simulations.org/) collaborations. Please check out my [projects page](/projects) for a flavour of my current work.
