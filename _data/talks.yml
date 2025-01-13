@@ -35,6 +35,20 @@
   details: "Invited participant"
 
 - title: ""
+  event: "Higgs Centre workshop: The Ecosystem of Massive Halos Across Cosmic Time"
+  date: "2022-10-17"
+  location: "Edinburgh, UK"
+  link: "https://higgs.ph.ed.ac.uk/workshops/ecosystem-of-massive-halos/"
+  details: "Invited participant"
+
+- title: ""
+  event: "AtLAST Consortium Meeting"
+  date: "2022-10-05"
+  location: "Oslo, Norway"
+  link: ""
+  details: "Contributed talk"
+
+- title: ""
   event: "A&G Highlights Meeting"
   date: "2025-01-10"
   location: "Royal Astronomical Society, London, UK"
@@ -141,9 +155,9 @@
 
 - title: ""
   event: "Mapping the Invisible Universe, Lorentz Center"
-  date: "2022-09-01"
+  date: "2022-08-29"
   location: "Leiden, Netherlands"
-  link: ""
+  link: "https://www.lorentzcenter.nl/mapping-the-invisible-universe.html"
   details: "Invited talk"
 
 - title: ""
