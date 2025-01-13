@@ -22,3 +22,4 @@ We found tension with some of the earliest JWST results, but over time those ten
 </div>
 
 The EVS technique is now being used to evaluate candidates from Euclid and other observatories {% cite franco_unveiling_2023 %}.
+Christian Kragh Jespersen, a student at Princeton, has also worked on including the effects of cosmic variance in an EVS-like scheme, finding important deviations from the fiducial results for individual JWST pointings {% cite kragh_jespersen_significance_2024 %}.

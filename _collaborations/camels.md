@@ -19,8 +19,8 @@ CAMELS is "a project that aims at building bridges between cosmology and astroph
     Schema showing the structure of the CAMELS suite of simulations.
 </div>
 
-I have produced synthetic photometric catalogues for CAMELS {% cite 2024arXiv241113960L %} using our Synthesizer code; this catalogue of over 200 million individual sources is one of the largest sets of synthetic photometry produced from a hydrodynamic simulation to date.
-I have also explored the application of normalising flows for generative modelling of galaxy populations {% cite 2023mla..confE..21L %}.
+I have produced synthetic photometric catalogues for CAMELS {% cite lovell_learning_2024 %} using our Synthesizer code; this catalogue of over 200 million individual sources is one of the largest sets of synthetic photometry produced from a hydrodynamic simulation to date.
+I have also explored the application of normalising flows for generative modelling of galaxy populations {% cite lovell_hierarchy_2023 %}.
 
 I also ran the Swift-EAGLE model as part of the suite of simulations (Lovell et al. in prep.).
 Below is a video of the evolution of one of the Swift-EAGLE runs, with gas density in blue and gas temperature in red.
@@ -31,10 +31,4 @@ Below is a video of the evolution of one of the Swift-EAGLE runs, with gas densi
     </div>
 </div>
 
-I have also been involved in a number of other CAMELS studies, including measurement of the impact of baryons on matter clustering {% cite 2024MNRAS.529.4896G %}, symbolic regression combined with graph neural networks {% cite 2023ApJ...956..149S %} and field level likelihood free inference {% cite 2023ApJ...952...69D 2023arXiv231015234D %}.
-
-<!-- ## Related publications -->
-<!-- <div class="publications">
-  {% bibliography -f papers -q @*[key=]* %}
-  {% bibliography -f papers -q @*[key=]* %}
-</div> -->
+I have also been involved in a number of other CAMELS studies, including measurement of the impact of baryons on matter clustering {% cite gebhardt_cosmological_2024 %}, symbolic regression combined with graph neural networks {% cite shao_universal_2023 %} and field level likelihood free inference {% cite de_santi_field-level_2023 de_santi_robust_2023 %}.
