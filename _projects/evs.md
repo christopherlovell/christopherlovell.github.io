@@ -21,5 +21,5 @@ We found tension with some of the earliest JWST results, but over time those ten
     EVS constraints on the most massive galaxy compared to the latest version of the Labbe+22 results.
 </div>
 
-The EVS technique is now being used to evaluate candidates from Euclid and other observatories {% cite franco_unveiling_2023 %}.
+The EVS technique is now being used to evaluate candidates from Euclid and other observatories {% cite franco_unveiling_2023 carnall_jwst_2024 %}.
 Christian Kragh Jespersen, a student at Princeton, has also worked on including the effects of cosmic variance in an EVS-like scheme, finding important deviations from the fiducial results for individual JWST pointings {% cite kragh_jespersen_significance_2024 %}.

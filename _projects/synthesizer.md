@@ -1,12 +1,27 @@
 ---
 layout: page
-title: Synthesizer
+title: Synthesizer & Forward Modelling
 description: Software for generating synthetic astronomical observables
 img: assets/img/synthesizer_logo.png
 importance: 1
 category: Projects
 related_publications: true
 ---
+
+In order to compare simulations and observations we traditionally perform inverse modelling, or SED fitting, and compare in some physical property space.
+An alternative approach is to forward model numerical simulations directly to the observational space.
+This avoids many of the uncertainties and biases inherent to inverse modelling, and provides a new space to compare and understand our models.
+I have written codes and performed analysis of forward modelled simulations in a wide range of projects.
+Most of my time now is spent developing and working with Synthesizer.
+
+<div class="row">
+    <div class="mx-auto d-block" style="text-align: center;">
+        {% include figure.liquid loading="eager" path="assets/img/motivation_synthesizer.png" title="sims scheme" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure showing the various points at which models and observations can be compared, and inverse (green) and forward (blue) modelling approaches.
+</div>
 
 Synthesizer is a python package for generating synthetic astrophysical observables. It is designed to be modular, extensible, flexible and fast.
 The code is hosted on [Gihub](https://github.com/flaresimulations/synthesizer), and comprehensive documentation is provided [here](https://flaresimulations.github.io/synthesizer/).

@@ -1,0 +1,28 @@
+{% assign grouped_talks = site.data.talks | sort: "date" | reverse | group_by_exp: "talk", "talk.date | date: '%Y'" %}
+
+
+<div class="talks-list">
+    {% for group in grouped_talks %}
+    <h2>{{ group.name }}</h2> <!-- Year -->
+    {% for talk in group.items %}
+        <div class="talk-item">
+        <h4>
+            {% if talk.link and talk.link != blank %}
+                <a href="{{ talk.link }}" target="_blank">{{ talk.event }}</a>
+            {% else %}
+            {{ talk.event }}
+            {% endif %}
+        </h4>
+        <p>
+            {{ talk.date | date: "%B %d, %Y" }} - {{ talk.location }}
+        </p>
+        {% if talk.title %}
+            {% if talk.title != blank %}
+                <p>"{{ talk.title }}"</p>
+            {% endif %}
+        {% endif %} 
+        </div>
+  {% endfor %}
+<hr>
+{% endfor %}
+</div>

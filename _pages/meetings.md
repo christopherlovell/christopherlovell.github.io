@@ -6,3 +6,6 @@ description: Conference and meetings I have attended, in reverse chronological o
 nav: true
 nav_order: 4
 ---
+
+
+{% include talks.liquid %}
