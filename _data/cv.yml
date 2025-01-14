@@ -2,96 +2,142 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Christopher C. Lovell
+    - name: Location
+      value: London, UK
+    - name: Email
+      value: christopher dot lovell at port dot ac dot uk
+    - name: Github
+      value: <a href=https://github.com/christopherlovell>christopherlovell</a>
+    - name: LinkedIn
+      value: <a href=https://www.linkedin.com/in/lovellchristopher>lovellchristopher</a>
+    # - name: Date of Birth
+    #   value: 14th March 1879
+    # - name: Languages
+    #   value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D Astronomy
+      institution: University of Sussex, Falmer, UK
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        Advisors: Prof. Peter Thomas & Dr. Stephen Wilkins
+        Title: Exploring the history of star formation in galaxies and its environmental dependence at high redshift.
+    - title: Master of Physics in Astrophysics
+      institution: School of Physics and Astronomy, Cardiff University, UK
+      year: 2013
+      # description:
+      #   - Description 1.
+      #   - Description 2.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Dennis Sciama Fellow
+      institution: Institute of Cosmology & Gravitation, University of Portsmouth, UK
+      year: 2022 -
+    - title: JSPS Short Term Fellow
+      institution: Institute for Cosmic Ray Research, University of Tokyo, Japan
+      year: 2022
+    - title: Postdoctoral Fellow
+      institution: Centre for Astrophysics Research, University of Hertfordshire
+      year: 2019 - 2022
+    - title: Postdoctoral Fellow
+      institution: School of Mathematical and Physical Sciences, University of Sussex
+      year: 2019
+    - title: Data Scientist
+      institution: Bank of England
+      year: 2013 - 2015
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards, Grants & Successful Proposals
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2024
+      items:
+        - Royal Astronomical Society Winton Award (A)
+        - "Awarded for research by an early career Post Doctoral researcher in a UK institution in astronomy or geophysics"
+    - year: 2022
+      items:
+        - Japan Society for the Promotion of Science (JSPS) Short Term Fellowship
+        - University of Tokyo, Japan, min. 1086000¥ (approx. £7700)
+    - year: 2024
+      items:
+        - CoI on ALMA cycle 11 proposal (PI Giuliano Lorenzon)
+        - Hunting the prolonged dust growth in dusty quiescent galaxies at intermediate redshift (2024.1.00814.S)
+    - year: 2023
+      items: 
+        - CAMELS-EAGLE - extending the CAMELS suite to new astrophysical models and cosmic environments (PI Chris Lovell)
+        - Successful DiRAC 15th call proposal, granted 13.5 million CPU hours on COSMA.
+    - year: 2021
+      items: 
+        - Co-I on JWST General Observer Cycle 1 proposal 1791 2 (PI Justin Spilker)
+        - "The Early Assembly History of the Most Massive Halo in the Reionization Era"
+    - year: 2013
+      items:
+        - Cardiff Undergraduate Research Opportunities Programme (CUROP)
+        - Extreme Value Statistics of galaxy voids (approx. £1500)
 
-- title: Honors and Awards
+- title: Teaching, Communication & Outreach
+  type: map
+  contents:
+    - name: Writing
+      value: I have written outreach articles on a number of subjects for a wide range of different publications and audiences, including Astrobites, Significance (the magazine of the Royal Statistical Society and the American Statistical Association), and The Conversation.
+    - name: Webb UK outreach
+      value: I have performed outreach at a number of events around the UK related to the James Webb Space Telescope, including festivals and talks for societies, talks to the public, schools groups of various ages and astronomy societies.
+    - name: Lecturing and Tutoring
+      value: Performed lectures, workshop supervision and marking for a number of courses in physics, astronomy and data science at bachelor, masters and graduate level.
+    - name: Certified Software Carpentries Instructor
+      value: The Carpentries Instructors are volunteers who teach foundational computational and data skills to researchers
+
+- title: Supervision and Mentorship
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023 - 2027
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Sophie Newman
+        - Ph.D. Astronomy, University of Portsmouth
+        - Supervisors - Claudia Maraston & Christopher Lovell
+    - year: 2021 - 2025
       items:
-        - Max Planck Medal
+        - Alice E. Matthews
+        - Ph.D. Astronomy, University College London
+        - Supervisors - Mat Page & Christopher Lovell (external)
+    - year: 2021 - 2028
+      items:
+        - Maxwell Maltz (part-time)
+        - Ph.D. Astronomy, University of Sussex
+        - Supervisors - Peter Thomas (recently passed away), Stephen Wilkins, Christopher Lovell
+    - year: 2023
+      items:
+        - Qazi Saaheelur Rahaman
+        - Undergraduate summer research project
+        - Supervisor - Christopher Lovell
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Other Interests
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Languages:</u> Python, R, C, C++, Intel MPI, OpenMP, Javascript, Git, HTML, LaTeX, bash
+    - <u>Software & Packages:</u> Pyro, Tensorflow, Keras, sbi, Scikit-learn, D3, HDF5

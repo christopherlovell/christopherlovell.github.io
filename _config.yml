@@ -314,7 +314,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Lovell]
-  first_name: [Christopher, C.]
+  first_name: [Christopher C., C. C., C., Christopher, Christopher C]
 
   style: apa
   locale: en
