@@ -3,27 +3,35 @@
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
-      {%- if entry.journal -%}
-        {%- if site.data.venues[entry.journal] -%}
+
+      {% if entry.journal and site.data.venues[entry.journal] -%}
+        {% assign journal = entry.journal %}
+      {% elsif entry.publisher and site.data.venues[entry.publisher] %}
+        {% assign journal = entry.publisher %}
+      {% else %}
+        {% assign journal = null %}
+      {% endif %}
+
+        {% if journal %}
           {% assign venue_style = null %}
-          {% if site.data.venues[entry.journal].color != blank %}
-            {% assign venue_style = site.data.venues[entry.journal].color | prepend: 'style="background-color:' | append: '"' %}
+          {% if site.data.venues[journal].color != blank %}
+            {% assign venue_style = site.data.venues[journal].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
             class="badge rounded w-100"
             {% if venue_style %}
               {{ venue_style }}
-            {% endif -%}
+            {% endif %}
           >
-            {% if site.data.venues[entry.journal].url %}
-              <a href="{{ site.data.venues[entry.journal].url }}">{{ entry.journal }}</a>
+            {% if site.data.venues[journal].url %}
+              <a href="{{ site.data.venues[journal].url }}">{{ journal }}</a>
             {% else %}
-              <div>{{- entry.journal -}}</div>
+              <div>{{- journal -}}</div>
             {% endif %}
           </abbr>
         {% else %}
-          <abbr class="badge rounded w-100">{{ entry.journal }}</abbr>
-        {% endif %}
+          <abbr class="badge rounded w-100">{{ journal }}</abbr>
+        
       {% endif %}
       {% if entry.preview %}
         {% if entry.preview contains '://' %}
