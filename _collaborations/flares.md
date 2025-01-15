@@ -29,4 +29,4 @@ We selected regions at high redshift, with a range of overdensities, from an eno
 
 I led the first release paper {% cite lovell_first_2021 %} in which we study predictions for the galaxy stellar mass function, star formation rate function and star-forming sequence as a function of environment.
 I also led a paper studying passive galaxy populations in the high redshift (z > 5) regime {% cite lovell_first_2023 %}. 
-Further work with the FLARES suite is described in {% cite vijayan_first_2021 vijayan_first_2022 roper_first_2022 wilkins_first_2022 dsilva_unveiling_2023 roper_flares_2023 wilkins_first_2023 wilkins_first_2023-1 seeyave_first_2023 thomas_first_2023 vijayan_first_2024 wilkins_first_2023-2 wilkins_first_2024 punyasheel_first_2024 wilkins_first_2024-1 maltz_first_2024 %}
+Further work with the FLARES suite is described in {% cite vijayan_first_2021 vijayan_first_2022 roper_first_2022 wilkins_first_2022 dsilva_unveiling_2023 roper_first_2023 wilkins_first_2023 wilkins_first_2023-1 seeyave_first_2023 thomas_first_2023 vijayan_first_2024 wilkins_first_2023-2 wilkins_first_2024 punyasheel_first_2024 wilkins_first_2024-1 maltz_first_2024 %}
