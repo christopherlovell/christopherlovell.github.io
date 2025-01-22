@@ -1,3 +1,9 @@
+- title: ""
+  event: "Imperial College"
+  date: "2025-01-21"
+  location: "London, UK"
+  link: ""
+  details: "Invited talk"
 
 - title: ""
   event: "Research Visit"
@@ -300,6 +306,13 @@
   location: "Lorentz Centre (Leiden)"
   link: "http://www.virgo.dur.ac.uk/"
   details: "Contributed talks"
+
+- title: ""
+  event: "VIRGO consortium meeting"
+  date: "2025-01-23"
+  location: "University of Sussex, UK"
+  link: "http://www.virgo.dur.ac.uk/"
+  details: "Contributed talk"
 
 - title: ""
   event: "ARCHER Single Node Performance Optimisation Workshop"
