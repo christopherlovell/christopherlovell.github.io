@@ -4,8 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - flaresimulations/synthesizer
+  - synthesizer-project/synthesizer
   - christopherlovell/evstats
   - christopherlovell/sengi
   - flaresimulations/flares
   - christopherlovell/astro-python
+  - christopherlovell/eagle_IO
