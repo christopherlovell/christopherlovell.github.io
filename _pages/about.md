@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://www.port.ac.uk/research/research-centres-and-groups/institute-of-cosmology-and-gravitation" target="source">Institute of Cosmology and Gravitation</a>, <a href="https://www.port.ac.uk/" target="source">University of Portsmouth</a>.
+subtitle: <a href="https://www.kicc.cam.ac.uk/" target="source">Kavli Institute for Cosmology, Cambridge</a>.
 
 profile:
   align: right
