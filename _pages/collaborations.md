@@ -11,4 +11,5 @@ nav_order: 4
   I contribute to multiple international simulation and survey collaborations focused on galaxy formation and cosmology.
 </p>
 
-{% include summary_panel_grid.liquid items=site.collaborations details_map=site.data.item_details.collaborations links_map=site.data.item_links.collaborations %}
+{% assign ordered_collaborations = site.collaborations | sort: "sort_order" %}
+{% include summary_panel_grid.liquid items=ordered_collaborations details_map=site.data.item_details.collaborations links_map=site.data.item_links.collaborations %}

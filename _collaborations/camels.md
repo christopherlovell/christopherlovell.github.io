@@ -4,6 +4,7 @@ title: CAMELS
 description: Cosmology and Astrophysics with MachinE Learning Simulations
 img: assets/img/camels.jpg
 importance: 1
+sort_order: 2
 category: Collaborations
 related_publications: true
 ---

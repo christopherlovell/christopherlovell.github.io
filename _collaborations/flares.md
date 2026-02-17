@@ -4,6 +4,7 @@ title: FLARES
 description: The First Light And Reionisation Epoch Simulations
 img: assets/img/flares.png
 importance: 1
+sort_order: 1
 category: Collaborations
 related_publications: true
 ---

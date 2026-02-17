@@ -4,6 +4,7 @@ title: Simba
 description: The Simba simulation suite
 img: assets/img/simba.webp
 importance: 1
+sort_order: 6
 category: Collaborations
 related_publications: true
 ---

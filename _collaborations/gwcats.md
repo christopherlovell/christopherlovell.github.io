@@ -4,6 +4,7 @@ title: GWCats
 description: The Gravitational Waves x Galaxy Catalogues collaboration
 img: assets/img/gwcats.webp
 importance: 1
+sort_order: 4
 category: Collaborations
 related_publications: false
 ---
