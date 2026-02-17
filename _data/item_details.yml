@@ -1,6 +1,6 @@
 projects:
   synthesizer: >-
-    Synthesizer is my main forward-modelling software effort. It is a modular Python package for generating synthetic astrophysical observables, designed to be fast and extensible. It supports direct comparisons between simulations and data in observational space, and is now used in multiple recent studies.
+    Synthesizer is our main forward-modelling software effort. It is a modular Python package for generating synthetic astrophysical observables, designed to be fast and extensible. It supports direct comparisons between simulations and data in observational space, and is now used in multiple recent studies.
   evs: >-
     This project applies extreme value statistics to predict the most massive haloes and galaxies at high redshift. It was used to quantify early JWST tension claims and how those changed with improved calibration, redshift vetting, and stellar-mass estimates.
   passive: >-
@@ -18,7 +18,7 @@ projects:
 
 collaborations:
   camels: >-
-    CAMELS links cosmology, galaxy formation, and machine learning through large simulation suites. In this collaboration I generated very large synthetic photometric catalogues and worked on generative and inference-oriented modelling workflows.
+    CAMELS links cosmology, galaxy formation, and machine learning through large simulation suites. In this collaboration I ran the SWIFT-EAGLE simulation suite, generated very large synthetic photometric catalogues, and worked on generative and inference-oriented modelling workflows.
   euclid: >-
     I am part of the Euclid Consortium and co-lead passive galaxy science in the galaxy and AGN evolution working group. This collaboration connects simulation-led interpretation with large survey data products.
   flares: >-

@@ -617,6 +617,15 @@ body.fixed-top-nav {
   line-height: 1.45;
 }
 
+.pub-title {
+  font-weight: 700;
+}
+
+.pub-my-name {
+  color: var(--accent-teal);
+  font-weight: 700;
+}
+
 .pub-block li:last-child {
   margin-bottom: 0;
 }

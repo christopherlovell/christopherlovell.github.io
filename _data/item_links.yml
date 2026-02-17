@@ -6,15 +6,19 @@ projects:
       - label: Documentation
         url: https://flaresimulations.github.io/synthesizer/
     papers:
-      - label: Lovell et al. 2024
+      - label: Lovell et al. 2025 (Synthesizer Intro)
+        url: https://arxiv.org/abs/2508.03888
+      - label: Roper et al. 2025 (JOSS)
+        url: https://arxiv.org/abs/2506.15811
+      - label: Lovell et al. 2025 (LtU)
         url: http://arxiv.org/abs/2411.13960
-      - label: Newman et al. 2025
-        url: http://arxiv.org/abs/2501.03133
+      - label: Harvey et al. 2025 (Synference)
+        url: https://ui.adsabs.harvard.edu/abs/2025arXiv251110640H
 
   evs:
     websites:
-      - label: ADS Topic Search
-        url: https://ui.adsabs.harvard.edu/search/q=title%3A%22Extreme%20value%20statistics%22%20AND%20author%3ALovell
+      - label: EVStats Repository
+        url: https://github.com/christopherlovell/evstats
     papers:
       - label: Lovell et al. 2023
         url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.2511L
@@ -24,12 +28,14 @@ projects:
   passive:
     websites:
       - label: FLARES Project
-        url: https://www.flaresimulations.github.io/
+        url: https://flaresimulations.github.io/
     papers:
       - label: Lovell et al. 2023
         url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.5520L
       - label: Santini et al. 2021
         url: https://ui.adsabs.harvard.edu/abs/2021A&A...652A..30S/abstract
+      - label: Turner et al. 2026
+        url: https://arxiv.org/abs/2509.16111
 
   ml:
     websites:
@@ -42,6 +48,8 @@ projects:
         url: https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.5046L
       - label: Lovell et al. 2023
         url: https://ui.adsabs.harvard.edu/abs/2023arXiv230706967L
+      - label: Lovell et al. 2019
+        url: https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.5503L
 
   sbi:
     websites:
@@ -56,6 +64,8 @@ projects:
         url: https://ui.adsabs.harvard.edu/abs/2023ApJ...952...69D
       - label: Lovell et al. 2024
         url: http://arxiv.org/abs/2411.13960
+      - label: Harvey et al. 2025 (Synference)
+        url: https://ui.adsabs.harvard.edu/abs/2025arXiv251110640H
 
   sps:
     websites:
@@ -82,9 +92,6 @@ projects:
         url: https://ui.adsabs.harvard.edu/abs/2024ORE.....4..122V
 
   protoclusters:
-    websites:
-      - label: ADS Topic Search
-        url: https://ui.adsabs.harvard.edu/search/q=title%3Aprotoclusters%20AND%20author%3ALovell
     papers:
       - label: Lovell et al. 2018
         url: http://adsabs.harvard.edu/abs/2018MNRAS.474.4612L
@@ -103,6 +110,22 @@ collaborations:
         url: http://arxiv.org/abs/2411.13960
       - label: Gebhardt et al. 2024
         url: https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4896G
+      - label: Lovell et al. 2023 (Hierarchy of Normalizing Flows)
+        url: https://arxiv.org/abs/2307.06967
+      - label: de Santi et al. 2023 (Robust Field-level)
+        url: https://arxiv.org/abs/2302.14101
+      - label: de Santi et al. 2025 (Field-level Systematics)
+        url: https://arxiv.org/abs/2310.15234
+      - label: Shao et al. 2023
+        url: https://arxiv.org/abs/2302.14591
+      - label: Pandey et al. 2025 (Galactification)
+        url: https://arxiv.org/abs/2511.08438
+      - label: Iyer et al. 2025 (Feedback)
+        url: https://arxiv.org/abs/2508.21152
+      - label: Sims et al. 2026 (CAMELS Environments)
+        url: https://arxiv.org/abs/2601.06290
+      - label: Gebhardt et al. 2026
+        url: https://arxiv.org/abs/2601.06258
 
   euclid:
     websites:
@@ -113,8 +136,18 @@ collaborations:
     papers:
       - label: Euclid Collaboration et al. 2025
         url: https://ui.adsabs.harvard.edu/abs/2025A&A...697A...1E
-      - label: Tutusaus et al. 2022
-        url: https://ui.adsabs.harvard.edu/abs/2022arXiv221108913T
+      - label: "Euclid Quick Data Release (Q1): Massive galaxy candidates"
+        url: https://arxiv.org/abs/2511.11943
+      - label: "Euclid Quick Data Release (Q1): Little red dots at z<4"
+        url: https://arxiv.org/abs/2503.15323
+      - label: "Euclid Quick Data Release (Q1): Optically faint red objects"
+        url: https://arxiv.org/abs/2503.15322
+      - label: "Euclid Quick Data Release (Q1): Quenched-galaxy classification"
+        url: https://arxiv.org/abs/2503.15315
+      - label: "Euclid Quick Data Release (Q1): Passive/morphology-density evolution"
+        url: https://arxiv.org/abs/2503.15313
+      - label: Girardi et al. 2025
+        url: https://arxiv.org/abs/2512.01489
 
   flares:
     websites:

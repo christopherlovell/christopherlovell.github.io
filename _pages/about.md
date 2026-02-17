@@ -20,11 +20,13 @@ social: true # includes social icons at the bottom of the page
 
 I am a computational astrophysicist studying how galaxies form and evolve.
 
-My research focuses on the physical processes that shape galaxies and drive their diversity across cosmic time.
-A major theme is understanding the earliest galaxies, in the first billion years of the Universe, now observed in detail by the [James Webb Space Telescope](https://www.esa.int/Science_Exploration/Space_Science/Webb).
+My research focuses on the physical processes that shape galaxies and drive their diversity across cosmic time. I use numerical simulations, forward modelling, and machine learning methods to connect theory with observations.
+This includes synthetic observables, deep-learning accelerators for simulation workflows, and simulation-based inference to place quantitative constraints on cosmological and astrophysical parameters.
 
-I use numerical simulations, forward modelling, and machine learning methods to connect theory with observations.
-This includes synthetic observables, deep-learning accelerators for simulation workflows, and simulation-based inference to place direct constraints on astrophysical parameters.
+I grew up in Cornwall, in the south west of the UK, where you would most likely have found me on the beach with my nose in a book. I spent my undergraduate years at Cardiff University, before moving to London to join the Bank of England. I then undertook my PhD at the University of Sussex under the supervision of Peter Thomas and Stephen Wilkins. Since then I have been bouncing around the south east of England, and am now a postdoctoral research associate at the Kavli Institute for Cosmology, University of Cambridge.
+
+Please do reach out if you wish to discuss any aspect of my research; I am always excited to talk about astrophysics, science and technology.
+I am open to collaboration on any of the projects described here, and any and all contributions to our public code bases are very welcome!
 
 I am a member of the [FLARES](https://flaresimulations.github.io/), [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid), [Learning the Universe](https://learning-the-universe.org/), and [CAMELS](https://www.camel-simulations.org/) collaborations.
 

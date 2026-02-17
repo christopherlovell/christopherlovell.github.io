@@ -5,6 +5,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "publications.tex"
 OUT = ROOT / "_includes" / "publications_generated.html"
+MY_NAME_PATTERN = re.compile(
+    r"\b(?:Christopher C\. Lovell|C\. C\. Lovell|Christopher Lovell|Chistopher Lovell|Christoper C\. Lovell)\b"
+)
 
 
 def load_items():
@@ -42,8 +45,19 @@ def latex_to_html(s: str) -> str:
     return s
 
 
+def style_publication_item(html: str) -> str:
+    html = re.sub(
+        r"(<strong>\d{4}:</strong>\s*)(.+?)(\.\s*<em>)",
+        r'\1<strong class="pub-title">\2</strong>\3',
+        html,
+        count=1,
+    )
+    html = MY_NAME_PATTERN.sub(r'<span class="pub-my-name">\g<0></span>', html)
+    return html
+
+
 def render_list(title, items):
-    lis = "\n".join(f"      <li>{latex_to_html(i)}</li>" for i in items)
+    lis = "\n".join(f"      <li>{style_publication_item(latex_to_html(i))}</li>" for i in items)
     return f"""  <section class=\"pub-block\">\n    <h2>{title}</h2>\n    <ul>\n{lis}\n    </ul>\n  </section>"""
 
 

@@ -2,7 +2,7 @@
 layout: page
 title: Simulation Based Inference
 description: The latest techniques for Bayesian Inference
-img: assets/img/ltu-ili.png
+img: assets/img/synference-logo.png
 importance: 6
 category: Projects
 related_publications: true
@@ -15,11 +15,11 @@ I've also been involved with a number of other projects utilising SBI approaches
 
 <div class="row">
     <div class="mx-auto d-block" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/sbi.png" title="sims scheme" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/synference-logo.png" title="Synference logo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure showing the typical components and structure of an SBI methodology (courtesy of <a href="https://transferlab.ai/series/simulation-based-inference/">TransferLab</a>)
+    Synference logo.
 </div>
 
 In 2024 we organised the first dedicated meeting on [Simulation Based Inference for Galaxy Evolution](https://sbi-galev.github.io/2024/). The [next installment](https://sbi-galev.github.io/2025/) is scheduled for 27th - 30th May 2025 - come and join us in Bristol!
