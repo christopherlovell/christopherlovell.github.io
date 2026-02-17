@@ -30,6 +30,15 @@ nav_order: 5
         <span class="code-pill-name">{{ name }}</span>
         <span class="code-pill-owner">{{ owner }}</span>
       </div>
+      <p
+        class="repo-about"
+        data-github-repo="{{ repo }}"
+        data-loading-text="Loading repository summary..."
+        data-error-text="Repository summary unavailable right now."
+        data-empty-text="No GitHub repository description provided."
+      >
+        Loading repository summary...
+      </p>
       <div class="code-pill-stats">
         <img alt="{{ repo }} stars" loading="lazy" src="https://img.shields.io/github/stars/{{ repo }}?style=for-the-badge&label=Stars&labelColor=102a43&color=0f766e">
         <img alt="{{ repo }} forks" loading="lazy" src="https://img.shields.io/github/forks/{{ repo }}?style=for-the-badge&label=Forks&labelColor=102a43&color=0f766e">

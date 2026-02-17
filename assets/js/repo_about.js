@@ -40,13 +40,19 @@
     }
   };
 
-  const setDescription = (elements, description) => {
+  const setDescription = (elements, description, state) => {
     const text = (description || "").trim();
-    const state = text ? "ready" : "empty";
+    const derivedState = state || (text ? "ready" : "empty");
     elements.forEach((el) => {
       el.textContent = text;
-      el.dataset.state = state;
+      el.dataset.state = derivedState;
     });
+  };
+
+  const getTextFromDataset = (elements, key, fallbackText) => {
+    const candidate = elements.find((el) => typeof el.dataset?.[key] === "string");
+    const value = candidate ? candidate.dataset[key].trim() : "";
+    return value || fallbackText;
   };
 
   const grouped = nodes.reduce((acc, el) => {
@@ -62,9 +68,19 @@
   }, {});
 
   const loadDescription = async (repo, elements) => {
+    const loadingText = getTextFromDataset(elements, "loadingText", "Loading repository summary...");
+    const errorText = getTextFromDataset(elements, "errorText", "Repository summary unavailable right now.");
+    const emptyText = getTextFromDataset(elements, "emptyText", "No GitHub repository description provided.");
+
+    setDescription(elements, loadingText, "loading");
+
     const cached = readCache(repo);
     if (cached !== null) {
-      setDescription(elements, cached);
+      if (cached.trim()) {
+        setDescription(elements, cached, "ready");
+      } else {
+        setDescription(elements, emptyText, "empty");
+      }
       return;
     }
 
@@ -81,9 +97,13 @@
       const description =
         payload && typeof payload.description === "string" ? payload.description : "";
       writeCache(repo, description);
-      setDescription(elements, description);
+      if (description.trim()) {
+        setDescription(elements, description, "ready");
+      } else {
+        setDescription(elements, emptyText, "empty");
+      }
     } catch {
-      setDescription(elements, "");
+      setDescription(elements, errorText, "error");
     }
   };
 

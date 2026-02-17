@@ -539,6 +539,32 @@ body.fixed-top-nav {
   font-size: 0.78rem;
 }
 
+.repo-about {
+  margin: 0;
+  color: var(--global-text-color-light);
+  font-size: 0.83rem;
+  line-height: 1.5;
+  min-height: 2.5rem;
+}
+
+.repo-about[data-state="loading"] {
+  color: var(--global-text-color-light);
+  opacity: 0.9;
+}
+
+.repo-about[data-state="ready"] {
+  color: var(--global-text-color);
+}
+
+.repo-about[data-state="empty"] {
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+
+.repo-about[data-state="error"] {
+  color: var(--accent-coral);
+}
+
 .code-pill-stats {
   display: flex;
   flex-wrap: wrap;
