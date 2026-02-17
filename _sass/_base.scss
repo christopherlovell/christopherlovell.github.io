@@ -507,6 +507,19 @@ footer.sticky-bottom {
   }
 }
 
+.repo-about {
+  margin: 0.45rem 0 0;
+  padding: 0 0.3rem;
+  text-align: left;
+  font-size: 0.84rem;
+  line-height: 1.35;
+  color: var(--global-text-color-light);
+}
+
+.repo-about[data-state="empty"] {
+  display: none;
+}
+
 // Blog
 
 .header-bar {

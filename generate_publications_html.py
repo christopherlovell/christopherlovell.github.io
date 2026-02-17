@@ -63,7 +63,7 @@ def render_stats(stats, first_items, second_items, co_items):
     <p class=\"publications-stat-value\">{total_count}</p>
   </article>
   <article class=\"publications-stat-card\">
-    <p class=\"publications-stat-label\">h-index (library)</p>
+    <p class=\"publications-stat-label\">h-index</p>
     <p class=\"publications-stat-value\">{h_value}</p>
   </article>
 </section>
