@@ -264,7 +264,6 @@ plugins:
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
-  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll-regex-replace
   - jekyll-sitemap
@@ -290,14 +289,6 @@ defaults:
 
 sass:
   style: compressed
-
-# -----------------------------------------------------------------------------
-# Jekyll Minifier
-# -----------------------------------------------------------------------------
-
-jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*"]
-  compressor: terser
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
