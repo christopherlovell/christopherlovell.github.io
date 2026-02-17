@@ -4,7 +4,7 @@ title: Learning the Universe
 description: The Learning the Universe Simons Collaboration
 img: assets/img/ltu.jpg
 importance: 1
-sort_order: 5
+sort_order: 4
 category: Collaborations
 related_publications: true
 ---

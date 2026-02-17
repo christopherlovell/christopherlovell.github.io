@@ -152,26 +152,57 @@ collaborations:
   flares:
     websites:
       - label: FLARES Project
-        url: https://www.flaresimulations.github.io/
+        url: https://flaresimulations.github.io/
       - label: EAGLE Project
         url: http://icc.dur.ac.uk/Eagle/
     papers:
-      - label: Lovell et al. 2021
-        url: http://adsabs.harvard.edu/abs/2021MNRAS.500.2127L
-      - label: Lovell et al. 2023
-        url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.5520L
-      - label: Maltz et al. 2025
-        url: https://ui.adsabs.harvard.edu/abs/2025MNRAS.538.3084M
+      - label: Lovell et al. 2021 (FLARES I)
+        url: https://arxiv.org/abs/2004.07283
+      - label: Vijayan et al. 2021 (FLARES II)
+        url: https://arxiv.org/abs/2008.06057
+      - label: Vijayan et al. 2022 (FLARES III)
+        url: https://arxiv.org/abs/2108.00830
+      - label: Roper et al. 2022 (FLARES IV)
+        url: https://arxiv.org/abs/2203.12627
+      - label: Wilkins et al. 2023 (FLARES V)
+        url: https://arxiv.org/abs/2204.09431
+      - label: Wilkins et al. 2022 (FLARES VI)
+        url: https://arxiv.org/abs/2207.10920
+      - label: Wilkins et al. 2023 (FLARES VII)
+        url: https://arxiv.org/abs/2208.00976
+      - label: Lovell et al. 2023 (FLARES VIII)
+        url: https://arxiv.org/abs/2211.07540
+      - label: Roper et al. 2023 (FLARES IX)
+        url: https://arxiv.org/abs/2301.05228
+      - label: Thomas et al. 2023 (FLARES X)
+        url: https://arxiv.org/abs/2301.09510
+      - label: Wilkins et al. 2023 (FLARES XI)
+        url: https://arxiv.org/abs/2301.13038
+      - label: Vijayan et al. 2024 (FLARES XII)
+        url: https://arxiv.org/abs/2303.04177
+      - label: Seeyave et al. 2023 (FLARES XIII)
+        url: https://arxiv.org/abs/2305.18174
+      - label: Wilkins et al. 2024 (FLARES XIV)
+        url: https://arxiv.org/abs/2305.18175
+      - label: Wilkins et al. 2025 (FLARES XV)
+        url: https://arxiv.org/abs/2404.02815
+      - label: Punyasheel et al. 2025 (FLARES XVI)
+        url: https://arxiv.org/abs/2408.11037
+      - label: Maltz et al. 2025 (FLARES XVII)
+        url: https://arxiv.org/abs/2410.24082
+      - label: Wilkins et al. 2025 (FLARES XVIII)
+        url: https://arxiv.org/abs/2505.05257
+      - label: Liao et al. 2025 (FLARES XIX)
+        url: https://arxiv.org/abs/2505.12591
+      - label: Seeyave et al. 2025 (FLARES XX)
+        url: https://arxiv.org/abs/2511.11982
+      - label: Turner et al. 2026 (RUBIES-UDS-QG-z7 in FLARES)
+        url: https://arxiv.org/abs/2509.16111
 
   gwcats:
     websites:
-      - label: LIGO Lab
-        url: https://www.ligo.org/
-      - label: GW Open Science Center
-        url: https://www.gw-openscience.org/
-    papers:
-      - label: Makai Baker et al. 2025
-        url: https://ui.adsabs.harvard.edu/abs/2025arXiv250304073M
+      - label: Lorentz Center Workshop
+        url: https://www.lorentzcenter.nl/shedding-light-on-dark-sirens.html
 
   ltu:
     websites:
@@ -184,13 +215,13 @@ collaborations:
         url: https://ui.adsabs.harvard.edu/abs/2024OJAp....7E..54H
       - label: Lovell et al. 2024
         url: http://arxiv.org/abs/2411.13960
+      - label: Sommovigo et al. 2025
+        url: https://arxiv.org/abs/2502.13240
 
   simba:
     websites:
-      - label: CAMELS Suite
-        url: https://www.camel-simulations.org/
-      - label: CAMELS Documentation
-        url: https://camels.readthedocs.io/
+      - label: Simba Project
+        url: http://simba.roe.ac.uk/
     papers:
       - label: Lovell et al. 2021
         url: http://adsabs.harvard.edu/abs/2021MNRAS.502..772L
@@ -198,3 +229,5 @@ collaborations:
         url: https://ui.adsabs.harvard.edu/abs/2025A&A...693A.118L
       - label: Garg et al. 2022
         url: https://ui.adsabs.harvard.edu/abs/2022ApJ...926...80G
+      - label: Appleby et al. 2023
+        url: https://arxiv.org/abs/2301.02001
