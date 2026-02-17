@@ -2,7 +2,7 @@
 layout: page
 permalink: /meetings/
 title: meetings
-description: Conference and meetings I have attended, in reverse chronological order. 
+description: Seminars, colloquia and invited talks and I have given, as well as key conferences and meetings I have attended, in reverse chronological order.
 nav: true
 nav_order: 4
 ---

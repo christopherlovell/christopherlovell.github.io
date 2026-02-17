@@ -24,7 +24,7 @@ Most of my time now is spent developing and working with Synthesizer.
 </div>
 
 Synthesizer is a python package for generating synthetic astrophysical observables. It is designed to be modular, extensible, flexible and fast.
-The code is hosted on [Gihub](https://github.com/flaresimulations/synthesizer), and comprehensive documentation is provided [here](https://flaresimulations.github.io/synthesizer/).
+The code is hosted on [GitHub](https://github.com/synthesizer-project/synthesizer), and comprehensive documentation is provided [here](https://flaresimulations.github.io/synthesizer/).
 
 <div class="row">
     <div class="mx-auto d-block" style="text-align: center;">
@@ -37,4 +37,3 @@ The code is hosted on [Gihub](https://github.com/flaresimulations/synthesizer), 
 
 Some papers that have used Synthesizer include {% cite lovell_learning_2024 %} and {% cite newman_cloudy-maraston_2025 %}. Synthesizer is based on codes developed for a number of previous papers, including {% cite wilkins_nebular_2020 %} and {% cite vijayan_first_2021 %}.
 It is also meant to complement full dust radiative transfer approaches, in codes such as Powderday {% cite narayanan_powderday_2021 %}.
-
