@@ -51,7 +51,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1080px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -194,10 +194,10 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:title/
   collaborations:
-    output: true
+    output: false
     permalink: /:collection/:title/
 
 announcements:
@@ -247,6 +247,9 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - monochrome-grid/
+  - generate_publications_html.py
+  - publications.tex
   - vendor
 keep_files:
   - CNAME
@@ -277,6 +280,14 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      type: projects
+    values:
+      render_with_liquid: false
+  - scope:
+      type: collaborations
+    values:
+      render_with_liquid: false
 
 sass:
   style: compressed

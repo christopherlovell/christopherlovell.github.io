@@ -1,0 +1,167 @@
+projects:
+  synthesizer:
+    websites:
+      - label: GitHub Repository
+        url: https://github.com/flaresimulations/synthesizer
+      - label: Documentation
+        url: https://flaresimulations.github.io/synthesizer/
+    papers:
+      - label: Lovell et al. 2024
+        url: http://arxiv.org/abs/2411.13960
+      - label: Newman et al. 2025
+        url: http://arxiv.org/abs/2501.03133
+
+  evs:
+    websites:
+      - label: ADS Topic Search
+        url: https://ui.adsabs.harvard.edu/search/q=title%3A%22Extreme%20value%20statistics%22%20AND%20author%3ALovell
+    papers:
+      - label: Lovell et al. 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.2511L
+      - label: Carnall et al. 2024
+        url: https://ui.adsabs.harvard.edu/abs/2024MNRAS.534..325C
+
+  passive:
+    websites:
+      - label: FLARES Project
+        url: https://www.flaresimulations.github.io/
+    papers:
+      - label: Lovell et al. 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.5520L
+      - label: Santini et al. 2021
+        url: https://ui.adsabs.harvard.edu/abs/2021A&A...652A..30S/abstract
+
+  ml:
+    websites:
+      - label: CAMELS Project
+        url: https://www.camel-simulations.org/
+      - label: Learning the Universe
+        url: https://learning-the-universe.org/
+    papers:
+      - label: Lovell et al. 2022
+        url: https://ui.adsabs.harvard.edu/abs/2022MNRAS.509.5046L
+      - label: Lovell et al. 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023arXiv230706967L
+
+  sbi:
+    websites:
+      - label: Simulation-Based Inference
+        url: https://simulation-based-inference.org/
+      - label: LtU-ILI Framework
+        url: https://github.com/maho3/ltu-ili
+    papers:
+      - label: Ho et al. 2024
+        url: https://ui.adsabs.harvard.edu/abs/2024OJAp....7E..54H
+      - label: de Santi et al. 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023ApJ...952...69D
+      - label: Lovell et al. 2024
+        url: http://arxiv.org/abs/2411.13960
+
+  sps:
+    websites:
+      - label: Sengi Tool
+        url: https://www.christopherlovell.co.uk/sengi/
+      - label: Synthesizer Docs
+        url: https://flaresimulations.github.io/synthesizer/
+    papers:
+      - label: Lovell 2021
+        url: http://www.sciencedirect.com/science/article/pii/S2213133720300986
+      - label: Newman et al. 2025
+        url: http://arxiv.org/abs/2501.03133
+
+  submm:
+    websites:
+      - label: AtLAST Project
+        url: https://www.atlast.uio.no/
+    papers:
+      - label: Lovell et al. 2021
+        url: http://adsabs.harvard.edu/abs/2021MNRAS.502..772L
+      - label: Lovell et al. 2022
+        url: https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3644L
+      - label: van Kampen et al. 2024
+        url: https://ui.adsabs.harvard.edu/abs/2024ORE.....4..122V
+
+  protoclusters:
+    websites:
+      - label: ADS Topic Search
+        url: https://ui.adsabs.harvard.edu/search/q=title%3Aprotoclusters%20AND%20author%3ALovell
+    papers:
+      - label: Lovell et al. 2018
+        url: http://adsabs.harvard.edu/abs/2018MNRAS.474.4612L
+      - label: Chen et al. 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.1378C
+
+collaborations:
+  camels:
+    websites:
+      - label: CAMELS Project
+        url: https://www.camel-simulations.org/
+      - label: CAMELS Documentation
+        url: https://camels.readthedocs.io/
+    papers:
+      - label: Lovell et al. 2024
+        url: http://arxiv.org/abs/2411.13960
+      - label: Gebhardt et al. 2024
+        url: https://ui.adsabs.harvard.edu/abs/2024MNRAS.529.4896G
+
+  euclid:
+    websites:
+      - label: Euclid Consortium
+        url: https://www.euclid-ec.org/
+      - label: ESA Mission Page
+        url: https://www.esa.int/Science_Exploration/Space_Science/Euclid
+    papers:
+      - label: Euclid Collaboration et al. 2025
+        url: https://ui.adsabs.harvard.edu/abs/2025A&A...697A...1E
+      - label: Tutusaus et al. 2022
+        url: https://ui.adsabs.harvard.edu/abs/2022arXiv221108913T
+
+  flares:
+    websites:
+      - label: FLARES Project
+        url: https://www.flaresimulations.github.io/
+      - label: EAGLE Project
+        url: http://icc.dur.ac.uk/Eagle/
+    papers:
+      - label: Lovell et al. 2021
+        url: http://adsabs.harvard.edu/abs/2021MNRAS.500.2127L
+      - label: Lovell et al. 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.5520L
+      - label: Maltz et al. 2025
+        url: https://ui.adsabs.harvard.edu/abs/2025MNRAS.538.3084M
+
+  gwcats:
+    websites:
+      - label: LIGO Lab
+        url: https://www.ligo.org/
+      - label: GW Open Science Center
+        url: https://www.gw-openscience.org/
+    papers:
+      - label: Makai Baker et al. 2025
+        url: https://ui.adsabs.harvard.edu/abs/2025arXiv250304073M
+
+  ltu:
+    websites:
+      - label: Learning the Universe
+        url: https://learning-the-universe.org/
+      - label: Simons Collaboration
+        url: https://www.simonsfoundation.org/collaborations/
+    papers:
+      - label: Ho et al. 2024
+        url: https://ui.adsabs.harvard.edu/abs/2024OJAp....7E..54H
+      - label: Lovell et al. 2024
+        url: http://arxiv.org/abs/2411.13960
+
+  simba:
+    websites:
+      - label: CAMELS Suite
+        url: https://www.camel-simulations.org/
+      - label: CAMELS Documentation
+        url: https://camels.readthedocs.io/
+    papers:
+      - label: Lovell et al. 2021
+        url: http://adsabs.harvard.edu/abs/2021MNRAS.502..772L
+      - label: Lorenzon et al. 2025
+        url: https://ui.adsabs.harvard.edu/abs/2025A&A...693A.118L
+      - label: Garg et al. 2022
+        url: https://ui.adsabs.harvard.edu/abs/2022ApJ...926...80G

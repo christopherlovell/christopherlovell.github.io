@@ -1,0 +1,31 @@
+projects:
+  synthesizer: >-
+    Synthesizer is my main forward-modelling software effort. It is a modular Python package for generating synthetic astrophysical observables, designed to be fast and extensible. It supports direct comparisons between simulations and data in observational space, and is now used in multiple recent studies.
+  evs: >-
+    This project applies extreme value statistics to predict the most massive haloes and galaxies at high redshift. It was used to quantify early JWST tension claims and how those changed with improved calibration, redshift vetting, and stellar-mass estimates.
+  passive: >-
+    I use FLARES and related simulations to study when the first passive galaxies emerge, and what physical mechanisms shut down star formation in the early Universe. The work links rare high-redshift passive candidates to AGN feedback pathways in the models.
+  ml: >-
+    This line of work uses machine learning methods to accelerate and extend simulation-based science, including galaxy-halo mapping and probabilistic modelling. It also includes applications to spectra, cosmological inference, and uncertainty-aware predictions.
+  sbi: >-
+    Simulation-based inference combines forward models with modern neural density estimation for likelihood-free Bayesian analysis. I apply these methods to astrophysical parameter inference and model comparison, including work with LtU-ILI and synthetic CAMELS photometry.
+  sps: >-
+    Stellar population synthesis is a core ingredient in many of my forward models. This work spans model development, practical tools such as Sengi, and applications to nebular line and continuum predictions with collaborators.
+  submm: >-
+    Here I study dusty star-forming galaxies in the early Universe and their far-IR to sub-mm observables. Using hydrodynamic simulations and dust radiative transfer, this project explores number counts, orientation effects, and survey-scale predictions.
+  protoclusters: >-
+    This project focuses on identifying and characterizing the progenitors of present-day massive galaxy clusters before collapse. It includes work on detection strategies, morphology, and broader environmental effects on galaxy evolution.
+
+collaborations:
+  camels: >-
+    CAMELS links cosmology, galaxy formation, and machine learning through large simulation suites. In this collaboration I generated very large synthetic photometric catalogues and worked on generative and inference-oriented modelling workflows.
+  euclid: >-
+    I am part of the Euclid Consortium and co-lead passive galaxy science in the galaxy and AGN evolution working group. This collaboration connects simulation-led interpretation with large survey data products.
+  flares: >-
+    FLARES is a suite of high-redshift zoom simulations designed to probe rare environments at high fidelity and large effective volume. I led the first release paper and several follow-up studies on environmental trends and passive populations.
+  gwcats: >-
+    GWCats brings together the gravitational-wave and galaxy-catalog communities. It is focused on building shared catalogue and analysis frameworks that support multi-messenger science.
+  ltu: >-
+    Learning the Universe develops scalable forward-modelling and simulation-based inference pipelines for cosmology and astrophysics. My work includes LtU-ILI development and applications combining synthetic observables with inference.
+  simba: >-
+    Simba is a major galaxy-formation simulation suite used for diverse physics and synthetic-observation studies. My contributions include dusty-galaxy modelling, orientation-dependent emission analyses, and related high-redshift investigations.

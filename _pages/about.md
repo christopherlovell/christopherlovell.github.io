@@ -18,14 +18,18 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a computational astrophysicist studying how galaxies form and evolve. 
+I am a computational astrophysicist studying how galaxies form and evolve.
 
-My research seeks to understand the various physical processes that shape galaxies, including their cosmological environment, which leads to the diversity of the galaxy population we observe.
-A particular focus of my research has been the formation of the earliest galaxies, in the first billion years of the Universe's history, now being probed in exquisite detail by the [James Webb Space Telescope](https://www.esa.int/Science_Exploration/Space_Science/Webb).
+My research focuses on the physical processes that shape galaxies and drive their diversity across cosmic time.
+A major theme is understanding the earliest galaxies, in the first billion years of the Universe, now observed in detail by the [James Webb Space Telescope](https://www.esa.int/Science_Exploration/Space_Science/Webb).
 
-To do this I use numerical simulations to model these complex physical processes.
-Much of my work has focussed on modelling the electromagnetic emission from galaxies, allowing us to directly compare with the observed galaxy populations.
-I also employ deep learning techniques to accelerate these simulations, and provide novel insights.
-Recently I have been exploring simulation based inference approaches, which allow us to use our sophisticated simulations to place direct constraints on key astrophysical parameters.
+I use numerical simulations, forward modelling, and machine learning methods to connect theory with observations.
+This includes synthetic observables, deep-learning accelerators for simulation workflows, and simulation-based inference to place direct constraints on astrophysical parameters.
 
-I am a member of the [FLARES](https://flaresimulations.github.io/), [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid), [Learning the Universe](https://learning-the-universe.org/) and [CAMELS](https://www.camel-simulations.org/) collaborations. Please check out my [projects page](/projects) for a flavour of my current work.
+I am a member of the [FLARES](https://flaresimulations.github.io/), [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid), [Learning the Universe](https://learning-the-universe.org/), and [CAMELS](https://www.camel-simulations.org/) collaborations.
+
+<div class="home-actions">
+  <a class="button-link" href="/projects/">View projects</a>
+  <a class="button-link button-link-muted" href="/collaborations/">View collaborations</a>
+  <a class="button-link button-link-muted" href="/assets/pdf/cv_update.pdf" target="_blank" rel="noreferrer">Download CV (PDF)</a>
+</div>
