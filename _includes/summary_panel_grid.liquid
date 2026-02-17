@@ -1,0 +1,87 @@
+{% assign sorted_items = include.items | sort: "importance" %}
+<div class="summary-panel-grid">
+  {% for item in sorted_items %}
+    {% assign detail_text = nil %}
+    {% assign item_links = nil %}
+    {% assign has_detail_content = false %}
+    {% if include.details_map and include.details_map[item.slug] %}
+      {% assign detail_text = include.details_map[item.slug] %}
+      {% assign has_detail_content = true %}
+    {% endif %}
+    {% if include.links_map and include.links_map[item.slug] %}
+      {% assign item_links = include.links_map[item.slug] %}
+      {% assign has_detail_content = true %}
+    {% endif %}
+    <details class="summary-panel summary-panel-expandable{% if has_detail_content %} summary-panel-has-detail{% endif %}">
+      <summary class="summary-panel-summary">
+        {% if item.img %}
+          {% include figure.liquid loading="lazy" path=item.img alt=item.title class="summary-panel-image" %}
+        {% endif %}
+        <div class="summary-panel-content">
+          <h2>{{ item.title }}</h2>
+          <p>{{ item.description }}</p>
+          <div class="summary-panel-toggle">
+            <span class="summary-panel-toggle-text-collapsed">Show details</span>
+            <span class="summary-panel-toggle-text-expanded">Hide details</span>
+            <i class="ti ti-chevron-down"></i>
+          </div>
+        </div>
+      </summary>
+      {% if has_detail_content %}
+        <div class="summary-panel-detail">
+          {% if detail_text %}
+            <p>{{ detail_text }}</p>
+          {% endif %}
+          {% if item_links %}
+            <div class="summary-panel-resources">
+              {% if item_links.websites and item_links.websites.size > 0 %}
+                <div class="summary-panel-resource-group">
+                  <p class="summary-panel-resource-label">Websites</p>
+                  <div class="summary-panel-resource-links">
+                    {% for link in item_links.websites %}
+                      {% assign is_external = false %}
+                      {% if link.url contains "://" %}
+                        {% assign is_external = true %}
+                      {% endif %}
+                      <a
+                        class="summary-panel-link-chip summary-panel-link-chip-website"
+                        href="{{ link.url }}"
+                        {% if is_external %}
+                          target="_blank" rel="noopener noreferrer"
+                        {% endif %}
+                      >
+                        {{ link.label }}
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+              {% if item_links.papers and item_links.papers.size > 0 %}
+                <div class="summary-panel-resource-group">
+                  <p class="summary-panel-resource-label">Relevant Papers</p>
+                  <div class="summary-panel-resource-links">
+                    {% for link in item_links.papers %}
+                      {% assign is_external = false %}
+                      {% if link.url contains "://" %}
+                        {% assign is_external = true %}
+                      {% endif %}
+                      <a
+                        class="summary-panel-link-chip summary-panel-link-chip-paper"
+                        href="{{ link.url }}"
+                        {% if is_external %}
+                          target="_blank" rel="noopener noreferrer"
+                        {% endif %}
+                      >
+                        {{ link.label }}
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </details>
+  {% endfor %}
+</div>
