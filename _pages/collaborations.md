@@ -2,7 +2,7 @@
 layout: page
 title: collaborations
 permalink: /collaborations/
-description: Collaborations and consortia that shape my current work.
+description:
 nav: true
 nav_order: 4
 ---

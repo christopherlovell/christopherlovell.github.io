@@ -10,6 +10,11 @@
   --global-footer-bg-color: #102a43;
   --global-footer-text-color: #d9e2ec;
   --global-footer-link-color: #f0f4f8;
+  --bg-wave-a: rgba(15, 118, 110, 0.12);
+  --bg-wave-b: rgba(16, 42, 67, 0.08);
+  --bg-star-1: rgba(16, 42, 67, 0.34);
+  --bg-star-2: rgba(15, 118, 110, 0.28);
+  --bg-star-3: rgba(16, 42, 67, 0.22);
 }
 
 html[data-theme="dark"] {
@@ -24,6 +29,11 @@ html[data-theme="dark"] {
   --global-footer-bg-color: #020617;
   --global-footer-text-color: #cbd5e1;
   --global-footer-link-color: #f8fafc;
+  --bg-wave-a: rgba(20, 184, 166, 0.12);
+  --bg-wave-b: rgba(147, 197, 253, 0.08);
+  --bg-star-1: rgba(248, 250, 252, 0.48);
+  --bg-star-2: rgba(94, 234, 212, 0.42);
+  --bg-star-3: rgba(186, 230, 253, 0.34);
 }
 
 body {
@@ -31,8 +41,49 @@ body {
   font-size: 1rem;
   line-height: 1.75;
   background-image:
-    radial-gradient(circle at 10% 10%, rgba(15, 118, 110, 0.12), transparent 40%),
-    radial-gradient(circle at 80% 0%, rgba(16, 42, 67, 0.08), transparent 45%);
+    radial-gradient(130% 90% at 8% 12%, var(--bg-wave-a), transparent 52%),
+    radial-gradient(120% 90% at 88% -4%, var(--bg-wave-b), transparent 56%),
+    radial-gradient(1.6px 1.6px at 25px 30px, var(--bg-star-1), transparent 66%),
+    radial-gradient(1.4px 1.4px at 120px 80px, var(--bg-star-2), transparent 66%),
+    radial-gradient(2px 2px at 70px 140px, var(--bg-star-3), transparent 66%);
+  background-size:
+    100% 100%,
+    100% 100%,
+    180px 180px,
+    240px 240px,
+    320px 320px;
+  background-position:
+    0 0,
+    0 0,
+    0 0,
+    40px 90px,
+    110px 30px;
+  animation: starfield-drift 12s linear infinite;
+}
+
+@keyframes starfield-drift {
+  0% {
+    background-position:
+      0 0,
+      0 0,
+      0 0,
+      40px 90px,
+      110px 30px;
+  }
+  100% {
+    background-position:
+      0 0,
+      0 0,
+      -180px 180px,
+      240px -240px,
+      -320px 320px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    animation: none;
+  }
 }
 
 h1,
@@ -112,11 +163,10 @@ html[data-theme="dark"] .navbar {
 }
 
 .profile {
-  border: 1px solid var(--global-divider-color);
-  border-radius: 1rem;
-  background: var(--global-card-bg-color);
-  padding: 0.8rem;
-  box-shadow: 0 18px 40px -30px rgba(16, 42, 67, 0.55);
+  border: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
 }
 
 .home-actions {

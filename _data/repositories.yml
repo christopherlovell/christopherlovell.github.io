@@ -5,8 +5,10 @@ repo_description_lines_max: 2
 
 github_repos:
   - synthesizer-project/synthesizer
+  - synthesizer-project/synference
   - christopherlovell/evstats
   - christopherlovell/sengi
   - flaresimulations/flares
+  - flaresimulations/gridder
   - christopherlovell/astro-python
   - christopherlovell/eagle_IO
