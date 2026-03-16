@@ -6,7 +6,7 @@ subtitle: <a href="https://www.kicc.cam.ac.uk/" target="source">Kavli Institute 
 
 profile:
   align: right
-  image: profile_ras_edit.png
+  image: Chris-Lovell_crop.jpg
   image_circular: true # crops the image to make it circular
 #  more_info: >
 #    <p>555 your office number</p>
