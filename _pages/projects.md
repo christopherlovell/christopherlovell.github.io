@@ -7,4 +7,4 @@ nav: true
 nav_order: 3
 ---
 
-{% include summary_panel_grid.liquid items=site.projects details_map=site.data.item_details.projects links_map=site.data.item_links.projects %}
+{% include summary_panel_grid.liquid items=site.projects %}

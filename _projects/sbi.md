@@ -2,24 +2,26 @@
 layout: page
 title: Simulation Based Inference
 description: The latest techniques for Bayesian Inference
+details: >-
+  Simulation-based inference combines detailed forward models with modern neural density estimation for likelihood-free Bayesian analysis. I apply these methods to astrophysical and cosmological parameter inference and model comparison, including tasks in SED fitting and field level inference.
 img: assets/img/synference-logo.png
 importance: 6
 category: Projects
-related_publications: true
+links:
+  websites:
+    - label: Simulation-Based Inference
+      url: https://simulation-based-inference.org/
+    - label: Synference
+      url: https://synthesizer-project.github.io/synference/
+    - label: LtU-ILI Framework
+      url: https://ltu-ili.readthedocs.io/en/latest/
+  papers:
+    - label: Ho et al. 2024 (LtU-ILI)
+      url: https://ui.adsabs.harvard.edu/abs/2024OJAp....7E..54H
+    - label: de Santi et al. 2023 (field level)
+      url: https://ui.adsabs.harvard.edu/abs/2023ApJ...952...69D
+    - label: Lovell et al. 2025 (LtU)
+      url: http://arxiv.org/abs/2411.13960
+    - label: Harvey et al. 2025 (Synference)
+      url: https://ui.adsabs.harvard.edu/abs/2025arXiv251110640H
 ---
-
-[Simulation Based Inference](https://simulation-based-inference.org/) (SBI), or Likelihood-free inference, is a state of the art approach to Bayesian inference that leverages the power of modern numerical simulations alongside modern neural density estimation methods. For a review, see [Cranmer, Brehmer & Louppe 2020](https://www.pnas.org/doi/full/10.1073/pnas.1912789117).
-
-I have recently been working on SBI approaches to a range of problems in physics. I was involved in the LtU-ILI suite {% cite ho_ltu-ili_2024 %}, a framework for performing SBI in cosmology and astrophysics. I applied this framework to forward modelled photometry from the CAMELS simulations {% cite lovell_learning_2024 %}, to perform parameter inference.
-I've also been involved with a number of other projects utilising SBI approaches, for parameter inference and model comparison {% cite de_santi_robust_2023 de_santi_field-level_2023 %}.
-
-<div class="row">
-    <div class="mx-auto d-block" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/synference-logo.png" title="Synference logo" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Synference logo.
-</div>
-
-In 2024 we organised the first dedicated meeting on [Simulation Based Inference for Galaxy Evolution](https://sbi-galev.github.io/2024/). The [next installment](https://sbi-galev.github.io/2025/) is scheduled for 27th - 30th May 2025 - come and join us in Bristol!

@@ -2,26 +2,34 @@
 layout: page
 title: Passive Galaxies
 description: Dead galaxies, both near and far
+details: >-
+  The first passive galaxies are pristine environments within which to study early galaxy evolution, as well as providing some of the toughest constraints on models of early galaxy formation. I have studied passive early galaxy populations in a number of works, in particular in our FLARES suite of numerical zoom simulations.
 img: assets/img/flares_passive.png
 importance: 3
 category: Projects
-related_publications: true
+links:
+  websites:
+    - label: FLARES Project
+      url: https://flaresimulations.github.io/
+  papers:
+    - label: Lovell et al. 2023 (FLARES)
+      url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.5520L
+    - label: Santini et al. 2021 (Sim comparison)
+      url: https://ui.adsabs.harvard.edu/abs/2021A&A...652A..30S/abstract
+    - label: Long et al. 2023 (NIRCam selection)
+      url: https://arxiv.org/abs/2305.04662
+    - label: Lorenzon et al. 2024 (cold gas)
+      url: https://arxiv.org/abs/2404.10568
+    - label: Carnall et al. 2024 (SFHs)
+      url: https://arxiv.org/abs/2405.02242
+    - label: Corcho-Caballero et al. 2025 (Euclid)
+      url: https://arxiv.org/abs/2503.15315
+    - label: Lorenzon et al. 2025 (dust-to-gas ratios)
+      url: https://arxiv.org/abs/2509.10079
+    - label: Jespersen et al. 2025 (conditioning)
+      url: https://arxiv.org/abs/2507.05340
+    - label: Lisiecki et al. 2026 (stochastic SFH)
+      url: https://arxiv.org/abs/2509.10117
+    - label: Turner et al. 2026 (FLARES)
+      url: https://arxiv.org/abs/2509.16111
 ---
-
-When did the first passive galaxies emerge?
-Passsive galaxies are common in the local Universe, but at high redshifts they are much rarer; understanding what leads to quiescence in the early Universe is key to understanding the processes leading to passivity at all times {% cite santini_emergence_2021 %}.
-
-In {% cite lovell_first_2023 %} we studied the passive population in [FLARES](projects/flares). 
-Due to the unique FLARES approach we can study very rare populations of galaxies at high redshift, and found passive populations of galaxies out to redshifts of 7-8.
-This passivity is due to AGN feedback in the EAGLE model.
-
-<div class="row">
-    <div class="mx-auto d-block" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/flares_passive.png" title="sims scheme" class="img-fluid rounded z-depth-1" width="400px" %}
-    </div>
-</div>
-<div class="caption">
-    Predicted number density of passive galaxies from FLARES + EAGLE compared to recent observational constraints.
-</div>
-
-A number of passive galaxies have now been detected at these early times, and FLARES is being used to understand these objects {% cite long_efficient_2023 %}.

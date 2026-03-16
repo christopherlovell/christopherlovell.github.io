@@ -2,32 +2,59 @@
 layout: page
 title: FLARES
 description: The First Light And Reionisation Epoch Simulations
+details: >-
+  FLARES is a suite of high-redshift zoom simulations designed to probe rare environments at high fidelity and large effective volume. I led the first release paper and several follow-up studies on environmental trends and passive populations.
 img: assets/img/flares.png
 importance: 1
 sort_order: 1
 category: Collaborations
-related_publications: true
+links:
+  websites:
+    - label: FLARES Project
+      url: https://flaresimulations.github.io/
+    - label: EAGLE Project
+      url: http://icc.dur.ac.uk/Eagle/
+  papers:
+    - label: Lovell et al. 2021 (FLARES I)
+      url: https://arxiv.org/abs/2004.07283
+    - label: Vijayan et al. 2021 (FLARES II)
+      url: https://arxiv.org/abs/2008.06057
+    - label: Vijayan et al. 2022 (FLARES III)
+      url: https://arxiv.org/abs/2108.00830
+    - label: Roper et al. 2022 (FLARES IV)
+      url: https://arxiv.org/abs/2203.12627
+    - label: Wilkins et al. 2023 (FLARES V)
+      url: https://arxiv.org/abs/2204.09431
+    - label: Wilkins et al. 2022 (FLARES VI)
+      url: https://arxiv.org/abs/2207.10920
+    - label: Wilkins et al. 2023 (FLARES VII)
+      url: https://arxiv.org/abs/2208.00976
+    - label: Lovell et al. 2023 (FLARES VIII)
+      url: https://arxiv.org/abs/2211.07540
+    - label: Roper et al. 2023 (FLARES IX)
+      url: https://arxiv.org/abs/2301.05228
+    - label: Thomas et al. 2023 (FLARES X)
+      url: https://arxiv.org/abs/2301.09510
+    - label: Wilkins et al. 2023 (FLARES XI)
+      url: https://arxiv.org/abs/2301.13038
+    - label: Vijayan et al. 2024 (FLARES XII)
+      url: https://arxiv.org/abs/2303.04177
+    - label: Seeyave et al. 2023 (FLARES XIII)
+      url: https://arxiv.org/abs/2305.18174
+    - label: Wilkins et al. 2024 (FLARES XIV)
+      url: https://arxiv.org/abs/2305.18175
+    - label: Wilkins et al. 2025 (FLARES XV)
+      url: https://arxiv.org/abs/2404.02815
+    - label: Punyasheel et al. 2025 (FLARES XVI)
+      url: https://arxiv.org/abs/2408.11037
+    - label: Maltz et al. 2025 (FLARES XVII)
+      url: https://arxiv.org/abs/2410.24082
+    - label: Wilkins et al. 2025 (FLARES XVIII)
+      url: https://arxiv.org/abs/2505.05257
+    - label: Liao et al. 2025 (FLARES XIX)
+      url: https://arxiv.org/abs/2505.12591
+    - label: Seeyave et al. 2025 (FLARES XX)
+      url: https://arxiv.org/abs/2511.11982
+    - label: Turner et al. 2026 (RUBIES-UDS-QG-z7 in FLARES)
+      url: https://arxiv.org/abs/2509.16111
 ---
-
-Cosmological hydrodynamic simulations have, in recent years, become capable of matching key distribution functions in the local universe, such as those of stellar mass and star formation rate.
-However, high resolution, large volume simulations  have rarely been tested in the high redshift (z > 5) regime, particularly in the most overdense environments.
-Creating models that fit both high redshift and low redshift observables self consistently is a significant challenge, but key to understanding the properties of galaxies in the first billion years of the universe's history, and how this affects their latter evolution.
-Such models are also necessary to make detailed predictions, and plan observations, for upcoming space based instruments, such as JWST, WFIRST and Euclid.
-
-
-<div class="row">
-    <div class="mx-auto d-block" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/baryonic_volume.png" title="sims scheme" class="img-fluid rounded z-depth-1" width="500px" %}
-    </div>
-</div>
-<div class="caption">
-    Figure of merit showing the general anti-correlation between simulation resolution and volume probed. FLARES is able to break this correlation, and explore much larger effective volumes at high fidelity.
-</div>
-
-<a href="https://www.flaresimulations.github.io/" target="source">The First Light And Reionisation Epoch Simulations (FLARES)</a> are one approach to these issues.
-FLARES consists of a suite of 40 'zoom' simulations using a modified version of the <a href="http://icc.dur.ac.uk/Eagle/" target="blank">EAGLE</a> code.
-We selected regions at high redshift, with a range of overdensities, from an enormous periodic dark matter-only volume, and resimulated these with full hydrodynamics at fiducial EAGLE resolution.
-
-I led the first release paper {% cite lovell_first_2021 %} in which we study predictions for the galaxy stellar mass function, star formation rate function and star-forming sequence as a function of environment.
-I also led a paper studying passive galaxy populations in the high redshift (z > 5) regime {% cite lovell_first_2023 %}. 
-Further work with the FLARES suite is described in {% cite vijayan_first_2021 vijayan_first_2022 roper_first_2022 wilkins_first_2022 dsilva_unveiling_2023 roper_first_2023 wilkins_first_2023 wilkins_first_2023-1 seeyave_first_2023 thomas_first_2023 vijayan_first_2024 wilkins_first_2023-2 wilkins_first_2024 punyasheel_first_2024 wilkins_first_2024-1 maltz_first_2024 %}

@@ -2,24 +2,23 @@
 layout: page
 title: Extreme Value Statistics
 description: Predicting the most extreme objects in the Universe
+details: >-
+  An application of extreme value statistics (EVS) to predict the most massive haloes and galaxies ion the Universe at high redshift. We used the technique to quantify early JWST tension claims, and it is now being used to assess new extreme candidates, including the impact of cosmic variance. We are also exploring these techniques in the observational space. 
 img: assets/img/evs.png
 importance: 2
 category: Projects
-related_publications: true
+links:
+  websites:
+    - label: EVStats Repository
+      url: https://github.com/christopherlovell/evstats
+  papers:
+    - label: Lovell et al. 2023 (Intro)
+      url: https://ui.adsabs.harvard.edu/abs/2023MNRAS.518.2511L
+    - label: Carnall et al. 2024 (Massive passive application)
+      url: https://ui.adsabs.harvard.edu/abs/2024MNRAS.534..325C
+    - label: Jespersen et al. 2025a (Cosmic Variance)
+      url: https://arxiv.org/abs/2403.00050
+    - label: Jespersen et al. 2025b (Environment conditioning)
+      url: https://arxiv.org/abs/2507.05340
+      
 ---
-
-Extreme Value Statistics is a branch of statistics concerned with the most extreme deviations from a given distribution.
-In {% cite lovell_extreme_2023 %} we used EVS to predict the most massive haloes and galaxies in the high redshift Universe.
-We found tension with some of the earliest JWST results, but over time those tensions have diminished as the calibration has improved, redshift outliers have been identified, and stellar mass estimates have been refined.
-
-<div class="row">
-    <div class="mx-auto d-block" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/evs.png" title="sims scheme" class="img-fluid rounded z-depth-1" width="400px" %}
-    </div>
-</div>
-<div class="caption">
-    EVS constraints on the most massive galaxy compared to the latest version of the Labbe+22 results.
-</div>
-
-The EVS technique is now being used to evaluate candidates from Euclid and other observatories {% cite franco_unveiling_2023 carnall_jwst_2024 %}.
-Christian Kragh Jespersen, a student at Princeton, has also worked on including the effects of cosmic variance in an EVS-like scheme, finding important deviations from the fiducial results for individual JWST pointings {% cite kragh_jespersen_significance_2024 %}.

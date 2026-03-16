@@ -2,24 +2,22 @@
 layout: page
 title: Stellar Population Synthesis
 description: Modelling stellar populations, for observational and theoretical applications
+details: >-
+  Stellar Population Synthesis (SPS) is a core ingredient in almost all forward models of galaxy emission. I have worked on a number of approaches and applications of SPS modelling, including detailed post-processing with photoionisation codes using synthesizer, visualisation with tools such as Sengi, and emulation with neural density estimators.
 img: assets/img/sps.png
 importance: 8
 category: Projects
-related_publications: true
+links:
+  websites:
+    - label: Sengi Tool
+      url: https://www.christopherlovell.co.uk/sengi/
+    - label: Synthesizer Grids
+      url: https://github.com/synthesizer-project/grid-generation
+  papers:
+    - label: Lovell 2021 (Sengi)
+      url: http://www.sciencedirect.com/science/article/pii/S2213133720300986
+    - label: Lovell et al. 2025 (Synthesizer)
+      url: https://arxiv.org/abs/2508.03888
+    - label: Newman et al. 2025 (photoionisation modelling)
+      url: http://arxiv.org/abs/2501.03133
 ---
-
-Stellar Population Synthesis (SPS) is a key ingredient in forward models for galaxy emission (see [Conroy 2013](https://ui.adsabs.harvard.edu/abs/2013ARA%26A..51..393C/abstract)).
-
-I have used SPS models in a wide range of projects. Most recently, [Sophie Newman](https://sophie-newman.github.io/), a student at the ICG, used the CLOUDY photoionization code to explore the line and continuum emission properties of young star forming regions {% cite newman_cloudy-maraston_2025 %}, utilising our [Synthesizer code](/projects/synthesizer).
-
-<div class="row">
-    <div class="mx-auto d-block" style="text-align: center;">
-        {% include figure.liquid loading="eager" path="assets/img/sps-long.png" title="sims scheme" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Stellar, nebular line and continuum emission components from the M24 Maraston models {% cite newman_cloudy-maraston_2025 %}.
-</div>
-
-I have also developed an online tool, [Sengi](https://www.christopherlovell.co.uk/sengi/), for exploring SPS models in an interactive way. Details on the implementation are published in {% cite lovell_sengi_2021 %}.
-

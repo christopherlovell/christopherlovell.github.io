@@ -1,15 +1,14 @@
 {% assign sorted_items = include.items | sort: "importance" %}
 <div class="summary-panel-grid">
   {% for item in sorted_items %}
-    {% assign detail_text = nil %}
+    {% assign detail_text = item.details %}
     {% assign item_links = nil %}
     {% assign has_detail_content = false %}
-    {% if include.details_map and include.details_map[item.slug] %}
-      {% assign detail_text = include.details_map[item.slug] %}
+    {% if detail_text and detail_text != "" %}
       {% assign has_detail_content = true %}
     {% endif %}
-    {% if include.links_map and include.links_map[item.slug] %}
-      {% assign item_links = include.links_map[item.slug] %}
+    {% if item.links %}
+      {% assign item_links = item.links %}
       {% assign has_detail_content = true %}
     {% endif %}
     <details class="summary-panel summary-panel-expandable{% if has_detail_content %} summary-panel-has-detail{% endif %}">

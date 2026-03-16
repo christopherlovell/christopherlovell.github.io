@@ -12,4 +12,4 @@ nav_order: 4
 </p>
 
 {% assign ordered_collaborations = site.collaborations | sort: "sort_order" %}
-{% include summary_panel_grid.liquid items=ordered_collaborations details_map=site.data.item_details.collaborations links_map=site.data.item_links.collaborations %}
+{% include summary_panel_grid.liquid items=ordered_collaborations %}
