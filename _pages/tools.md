@@ -42,4 +42,38 @@ nav_order: 6
       </div>
     </a>
   </div>
+
+  <!-- Cladistica Section -->
+  <div class="summary-panel">
+    <a href="https://www.christopherlovell.co.uk/cladistica/" target="_blank" rel="noopener noreferrer" class="summary-panel-summary" style="text-decoration: none; color: inherit;">
+      {% include figure.liquid
+        path="assets/img/cladistica.png"
+        class="summary-panel-image"
+        alt="Cladistica"
+      %}
+      <div class="summary-panel-content">
+        <h2>Cladistica</h2>
+        <p>
+          An interactive viewer for cladistics and phylogenetic trees.
+        </p>
+      </div>
+    </a>
+  </div>
+
+  <!-- TypeOff Section -->
+  <div class="summary-panel">
+    <a href="https://www.christopherlovell.co.uk/TypeOff/" target="_blank" rel="noopener noreferrer" class="summary-panel-summary" style="text-decoration: none; color: inherit;">
+      {% include figure.liquid
+        path="assets/img/typeoff.png"
+        class="summary-panel-image"
+        alt="TypeOff"
+      %}
+      <div class="summary-panel-content">
+        <h2>TypeOff</h2>
+        <p>
+          A small font comparison tool. Compare fonts side-by-side in a tournament-style bracket to find your preferred typeface.
+        </p>
+      </div>
+    </a>
+  </div>
 </div>
