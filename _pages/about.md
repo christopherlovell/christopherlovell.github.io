@@ -31,7 +31,6 @@ I am open to collaboration on any of the projects described here, and any and al
 I am a member of the [FLARES](https://flaresimulations.github.io/), [Euclid](https://www.esa.int/Science_Exploration/Space_Science/Euclid), [Learning the Universe](https://learning-the-universe.org/), and [CAMELS](https://www.camel-simulations.org/) collaborations.
 
 <div class="home-actions">
-  <a class="button-link" href="/projects/">View projects</a>
-  <a class="button-link button-link-muted" href="/collaborations/">View collaborations</a>
+  <a class="button-link" href="/publications/">View publications</a>
   <a class="button-link button-link-muted" href="/assets/pdf/cv_update.pdf" target="_blank" rel="noreferrer">Download CV (PDF)</a>
 </div>

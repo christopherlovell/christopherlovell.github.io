@@ -258,6 +258,30 @@ body.fixed-top-nav {
   display: flex;
   flex-direction: column;
   box-shadow: 0 16px 34px -28px rgba(0, 0, 0, 0.55);
+  position: relative;
+  transition: border-color 0.25s ease;
+
+  &:hover {
+    border-color: var(--accent-teal);
+  }
+}
+
+.summary-panel-github {
+  position: absolute;
+  bottom: 0.7rem;
+  right: 0.8rem;
+
+  a {
+    color: var(--global-text-color-light);
+    font-size: 1.15rem;
+    opacity: 0.5;
+    transition: opacity 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+      color: var(--global-theme-color);
+    }
+  }
 }
 
 .summary-panel-expandable {

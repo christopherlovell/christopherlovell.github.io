@@ -11,9 +11,9 @@ nav_order: 6
   <!-- Cosmo Carta Section -->
   <div class="summary-panel">
     <a href="https://www.christopherlovell.co.uk/cosmo-carta/" target="_blank" rel="noopener noreferrer" class="summary-panel-summary" style="text-decoration: none; color: inherit;">
-      {% include figure.liquid 
-        path="assets/img/cosmo-carta.png" 
-        class="summary-panel-image" 
+      {% include figure.liquid
+        path="assets/img/cosmo-carta.png"
+        class="summary-panel-image"
         alt="Cosmo Carta"
       %}
       <div class="summary-panel-content">
@@ -23,24 +23,34 @@ nav_order: 6
         </p>
       </div>
     </a>
+    <div class="summary-panel-github">
+      <a href="https://github.com/christopherlovell/cosmo-carta" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
   </div>
 
   <!-- Sengi Section -->
   <div class="summary-panel">
     <a href="https://www.christopherlovell.co.uk/sengi/" target="_blank" rel="noopener noreferrer" class="summary-panel-summary" style="text-decoration: none; color: inherit;">
-      {% include figure.liquid 
-        path="assets/img/sengi.png" 
-        class="summary-panel-image" 
+      {% include figure.liquid
+        path="assets/img/sengi.png"
+        class="summary-panel-image"
         alt="Sengi"
       %}
       <div class="summary-panel-content">
         <h2>Sengi</h2>
         <p>
-          Sengi is a small, fast, interactive viewer for spectral outputs from stellar population synthesis (SPS) models. 
+          Sengi is a small, fast, interactive viewer for spectral outputs from stellar population synthesis (SPS) models.
           It uses Non-negative Matrix Factorisation (NMF) and bilinear interpolation to estimate output spectra.
         </p>
       </div>
     </a>
+    <div class="summary-panel-github">
+      <a href="https://github.com/christopherlovell/sengi" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
   </div>
 
   <!-- Cladistica Section -->
@@ -58,6 +68,11 @@ nav_order: 6
         </p>
       </div>
     </a>
+    <div class="summary-panel-github">
+      <a href="https://github.com/christopherlovell/cladistica" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
   </div>
 
   <!-- TypeOff Section -->
@@ -75,5 +90,10 @@ nav_order: 6
         </p>
       </div>
     </a>
+    <div class="summary-panel-github">
+      <a href="https://github.com/christopherlovell/TypeOff" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
   </div>
 </div>
