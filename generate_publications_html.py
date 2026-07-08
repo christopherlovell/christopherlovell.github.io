@@ -31,12 +31,28 @@ def load_items():
     return sections, stats
 
 
+def render_math(content: str) -> str:
+    """Render the (already HTML-escaped) contents of a LaTeX $...$ span as HTML."""
+    if content.strip() == "-":
+        return "–"
+    text = content.replace(r"\geq", "≥").replace(r"\leq", "≤")
+    text = text.replace(r"\Lambda", "Λ").replace(r"\Omega", "Ω")
+    text = re.sub(r"_\{(.+?)\}", r"<sub>\1</sub>", text)
+    text = re.sub(r"\^\{(.+?)\}", r"<sup>\1</sup>", text)
+    text = re.sub(r"_(\w)", r"<sub>\1</sub>", text)
+    text = re.sub(r"\^(\w)", r"<sup>\1</sup>", text)
+    return text
+
+
 def latex_to_html(s: str) -> str:
     s = s.replace(r"\&", "&")
-    s = s.replace(r"\$", "$")
-    s = s.replace(r"$\geq$", "≥").replace(r"$\leq$", "≤")
-    s = s.replace(r"$\Lambda$", "Λ").replace(r"$\Omega_{m}$", "Ωₘ")
-    s = s.replace(r"$<$", "&lt;").replace(r"$>$", "&gt;")
+    s = s.replace(r"\$", "\x00DOLLAR\x00")
+    # Escape stray angle brackets up front (before any HTML tags exist) — malformed
+    # nested math spans like "$6.6 $<$ z $<$ 7.8$" leave "<" sitting *between*
+    # matched $...$ pairs, not inside them, so per-span escaping would miss them.
+    s = s.replace("<", "&lt;").replace(">", "&gt;")
+    s = re.sub(r"\$(.*?)\$", lambda m: render_math(m.group(1)), s)
+    s = s.replace("\x00DOLLAR\x00", "$")
     s = s.replace(r"---", "—").replace(r"--", "–")
     s = re.sub(r"\\textbf\{(.+?)\}", r"<strong>\1</strong>", s)
     s = re.sub(r"\\textit\{(.+?)\}", r"<em>\1</em>", s)
