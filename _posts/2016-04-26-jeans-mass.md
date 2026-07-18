@@ -131,4 +131,4 @@ $$M^{2/3} > \left(\frac{k_{b}\, t}{m}\right) \left(\frac{5}{G}\right) \left( \fr
 
 $$M > \left(\frac{5 \, k_{b}\, t}{G\,m}\right)^{3/2} \left( \frac{3}{4 \pi \rho} \right)^{1/2}$$
 
-$$\boxed{M_{J} = \left(\frac{-5 \, k_{b}\, t}{G\,m}\right)^{3/2} \left( \frac{3}{4 \pi \rho} \right)^{1/2}}$$
+$$\boxed{M_{J} = \left(\frac{5 \, k_{b}\, t}{G\,m}\right)^{3/2} \left( \frac{3}{4 \pi \rho} \right)^{1/2}}$$
