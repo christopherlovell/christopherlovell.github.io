@@ -14,7 +14,9 @@ links:
       url: http://simba.roe.ac.uk/
   papers:
     - label: Lovell et al. 2021
-      url: http://adsabs.harvard.edu/abs/2021MNRAS.502..772L
+      url: https://ui.adsabs.harvard.edu/abs/2021MNRAS.502..772L
+    - label: Lovell et al. 2022
+      url: https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3644L
     - label: Lorenzon et al. 2025
       url: https://ui.adsabs.harvard.edu/abs/2025A&A...693A.118L
     - label: Garg et al. 2022

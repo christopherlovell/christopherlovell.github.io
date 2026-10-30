@@ -17,7 +17,7 @@ links:
       url: https://skirt.ugent.be/root/_home.html
   papers:
     - label: Lovell et al. 2021 (Simba predictions)
-      url: http://adsabs.harvard.edu/abs/2021MNRAS.502..772L
+      url: https://ui.adsabs.harvard.edu/abs/2021MNRAS.502..772L
     - label: Lovell et al. 2022 (Orientation effects)
       url: https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3644L
     - label: van Kampen et al. 2024 (AtLAST)
