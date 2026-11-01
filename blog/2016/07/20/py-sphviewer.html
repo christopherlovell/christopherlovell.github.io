@@ -58,7 +58,7 @@
 
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A6%86&lt;/text&gt;&lt;/svg&gt;">
 
-<link rel="stylesheet" href="/assets/css/main.css?2f7a5d6ca96cc4f7180d104594ab3383">
+<link rel="stylesheet" href="/assets/css/main.css?f79de1094648d9c5d9789433da8df1a3">
 <link rel="canonical" href="https://christopherlovell.co.uk/blog/2016/07/20/py-sphviewer.html">
 
 <!-- Dark Mode -->
@@ -314,7 +314,9 @@
     <div id="markdown-content">
       <p>It’s now been 9 months since starting my PhD, and after a lot of introductory reading, required masters modules and code familiarisation I have now started doing my first simulations. I completed an early run a few weeks back and have been doing tests to make sure everything looks as it should. I’ll post in the future about exactly the approach we’re taking, but for now bask in the glory of this spinning visualisation produced with Py-SPHViewer (credit to Alejandro Benitez-Llambay for developing and making publicly available). It shows the dark matter distribution in my simulation at a redshift of 4.68, around a billion years after the big bang.</p>
 
-<p><img src="/images/dark_matter_spin.gif" alt="sim"></p>
+<blockquote>
+  <p><em>The original animation has since been removed from this post due to its file size.</em></p>
+</blockquote>
 
     </div>
   </article>
@@ -462,6 +464,10 @@
       window.MathJax = {
         tex: {
           tags: 'ams',
+          inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)'],
+          ],
         },
       };
     </script>

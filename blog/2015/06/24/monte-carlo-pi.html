@@ -58,7 +58,7 @@
 
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A6%86&lt;/text&gt;&lt;/svg&gt;">
 
-<link rel="stylesheet" href="/assets/css/main.css?2f7a5d6ca96cc4f7180d104594ab3383">
+<link rel="stylesheet" href="/assets/css/main.css?f79de1094648d9c5d9789433da8df1a3">
 <link rel="canonical" href="https://christopherlovell.co.uk/blog/2015/06/24/monte-carlo-pi.html">
 
 <!-- Dark Mode -->
@@ -332,7 +332,7 @@
 
 <p>If we take any random point within the rectangle, then the probability that this point lies within the circle, $P(circle)$, is equal to the area of the circle relative to the area of the rectangle. i.e,</p>
 
-\[P(circle)=\frac{A\_{circle}}{A\_{square}}=\frac{\pi (a/2)^2}{a^2}\]
+\[P(circle)=\frac{A_{circle}}{A_{square}}=\frac{\pi (a/2)^2}{a^2}\]
 
 <p>If we take $n$ points, then as $n$ gets very large the fraction of points that lie within the circle will converge to the probability of landing in the circle, $P(circle)$.</p>
 
@@ -524,6 +524,10 @@
       window.MathJax = {
         tex: {
           tags: 'ams',
+          inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)'],
+          ],
         },
       };
     </script>
