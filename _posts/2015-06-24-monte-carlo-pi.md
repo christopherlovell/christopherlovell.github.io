@@ -37,7 +37,7 @@ compose(context(),
 
 If we take any random point within the rectangle, then the probability that this point lies within the circle, $P(circle)$, is equal to the area of the circle relative to the area of the rectangle. i.e,
 
-$$P(circle)=\frac{A\_{circle}}{A\_{square}}=\frac{\pi (a/2)^2}{a^2}$$
+$$P(circle)=\frac{A_{circle}}{A_{square}}=\frac{\pi (a/2)^2}{a^2}$$
 
 
 If we take $n$ points, then as $n$ gets very large the fraction of points that lie within the circle will converge to the probability of landing in the circle, $P(circle)$.

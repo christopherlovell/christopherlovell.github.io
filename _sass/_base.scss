@@ -559,6 +559,13 @@ footer.sticky-bottom {
   }
 }
 
+.post-content img:not(.emoji) {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
