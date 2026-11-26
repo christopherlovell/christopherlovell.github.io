@@ -6,7 +6,7 @@ details: >-
   GWCats brings together the gravitational-wave and galaxy-catalog communities. It is focused on building shared catalogue and analysis frameworks that support multi-messenger science.
 img: assets/img/gwcats.webp
 importance: 1
-sort_order: 5
+sort_order: 6
 category: Collaborations
 links:
   websites:

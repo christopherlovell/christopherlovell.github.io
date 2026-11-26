@@ -6,7 +6,7 @@ details: >-
   FLARES is a suite of high-redshift zoom simulations designed to probe rare environments at high fidelity and large effective volume. I led the first release paper and several follow-up studies on environmental trends and passive populations.
 img: assets/img/flares.png
 importance: 1
-sort_order: 1
+sort_order: 5
 category: Collaborations
 links:
   websites:

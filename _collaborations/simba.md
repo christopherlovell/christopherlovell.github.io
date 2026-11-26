@@ -6,7 +6,7 @@ details: >-
   Simba is a leading hydrodynamic galaxy-formation simulation suite used for a diverse range of studies. I have contributed to dust RT modelling of dusty star forming galaxies, orientation-dependent emission analyses, and related high-redshift investigations.
 img: assets/img/simba.webp
 importance: 1
-sort_order: 6
+sort_order: 7
 category: Collaborations
 links:
   websites:
